@@ -1,0 +1,76 @@
+/**
+ * 通用样式
+ */
+.button-text, .link-text {
+    color: #0079FF;
+}
+.tip-text {
+    color: #ccc;
+}
+.title-text {
+    color: #000;
+}
+
+
+.tiplayer {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    padding: 20px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 14px;
+    opacity: 0;
+}
+
+
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none; 
+    
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form .text {
+    height: 3em;
+    width: 100%;
+    border: 1px solid #C8C7CC;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.login-form > p:first-child input {
+    border-bottom: 0;
+}
+
+.login-button {
+    margin-top: 28px;
+    width: 80%;
+    height: 4em;
+    background-color: #0079FF;
+    color: #fff;
+}
+
+.login-button:active, .login-button.disabled {
+    background-color: #74b6ff;
+    text-shadow: 1px 1px #fff;
+}

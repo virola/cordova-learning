@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D676E4C4-1205-4C23-88EB-0180C15DA90A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UserCenter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D1B6334-15B4-4A3F-BEF4-95DBA53D78C8</key>
+		<string>ssh://github.com/virola/cordova-learning.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>usercenter/platforms/ios/UserCenter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D1B6334-15B4-4A3F-BEF4-95DBA53D78C8</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/virola/cordova-learning.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D1B6334-15B4-4A3F-BEF4-95DBA53D78C8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D1B6334-15B4-4A3F-BEF4-95DBA53D78C8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cordova-learning</string>
+		</dict>
+	</array>
+</dict>
+</plist>

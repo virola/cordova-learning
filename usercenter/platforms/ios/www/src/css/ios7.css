@@ -1,0 +1,28 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    outline: 0;
+    color: #0079FF;
+    border-radius: 4px;
+}
+
+.break {
+    color: #b3b3b3;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #CBCBD0;
+    border-radius: 2px;
+
+    background: #FFF;
+    outline: 0;
+}
