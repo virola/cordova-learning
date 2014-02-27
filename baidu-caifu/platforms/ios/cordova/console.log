@@ -177,3 +177,21 @@ Terminating in response to SpringBoard's termination.
 2014-02-27 18:24:21.949 BaiduCaifu[36184:80b] Resetting plugins due to page load.
 2014-02-27 18:24:22.045 BaiduCaifu[36184:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
 Terminating in response to SpringBoard's termination.
+2014-02-27 18:26:07.865 BaiduCaifu[36387:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:26:07.877 BaiduCaifu[36387:80b] Unlimited access to network resources
+2014-02-27 18:26:07.917 BaiduCaifu[36387:80b] [CDVTimer][splashscreen] 11.949003ms
+2014-02-27 18:26:07.917 BaiduCaifu[36387:80b] [CDVTimer][TotalPluginStartup] 12.557983ms
+2014-02-27 18:26:08.063 BaiduCaifu[36387:80b] Resetting plugins due to page load.
+2014-02-27 18:26:08.226 BaiduCaifu[36387:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:26:56.740 BaiduCaifu[36509:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:26:56.751 BaiduCaifu[36509:80b] Unlimited access to network resources
+2014-02-27 18:26:56.790 BaiduCaifu[36509:80b] [CDVTimer][splashscreen] 12.431026ms
+2014-02-27 18:26:56.791 BaiduCaifu[36509:80b] [CDVTimer][TotalPluginStartup] 13.617992ms
+2014-02-27 18:26:56.874 BaiduCaifu[36509:80b] Resetting plugins due to page load.
+2014-02-27 18:26:57.047 BaiduCaifu[36509:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:27:29.133 BaiduCaifu[36629:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:27:29.144 BaiduCaifu[36629:80b] Unlimited access to network resources
+2014-02-27 18:27:29.179 BaiduCaifu[36629:80b] [CDVTimer][splashscreen] 11.247039ms
+2014-02-27 18:27:29.180 BaiduCaifu[36629:80b] [CDVTimer][TotalPluginStartup] 12.215972ms
+2014-02-27 18:27:29.252 BaiduCaifu[36629:80b] Resetting plugins due to page load.
+2014-02-27 18:27:29.649 BaiduCaifu[36629:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html

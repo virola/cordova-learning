@@ -66,7 +66,7 @@ var list = (function () {
 
     var TPL_ITEM = ''
         + '<li>'
-        +     '<a href="#{rawUrl}">'
+        +     '<a>'
         +         '<div class="info">'
         +             '<h4>#{title}</h4>'
         +             '<p>风险偏好: #{risk}</p>'
