@@ -1,0 +1,179 @@
+2014-02-27 15:32:56.797 BaiduCaifu[31993:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 15:32:56.836 BaiduCaifu[31993:80b] Unlimited access to network resources
+2014-02-27 15:32:57.505 BaiduCaifu[31993:80b] [CDVTimer][splashscreen] 96.565008ms
+2014-02-27 15:32:57.506 BaiduCaifu[31993:80b] [CDVTimer][TotalPluginStartup] 97.305000ms
+2014-02-27 15:32:57.728 BaiduCaifu[31993:80b] Resetting plugins due to page load.
+2014-02-27 15:32:57.976 BaiduCaifu[31993:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 15:46:47.208 BaiduCaifu[32507:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 15:46:47.220 BaiduCaifu[32507:80b] Unlimited access to network resources
+2014-02-27 15:46:47.264 BaiduCaifu[32507:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 15:46:47.265 BaiduCaifu[32507:80b] [CDVTimer][splashscreen] 18.261969ms
+2014-02-27 15:46:47.266 BaiduCaifu[32507:80b] [CDVTimer][TotalPluginStartup] 18.871009ms
+2014-02-27 15:46:47.268 BaiduCaifu[32507:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 15:46:47.272 BaiduCaifu[32507:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 15:46:47.274 BaiduCaifu[32507:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 15:46:47.559 BaiduCaifu[32507:80b] Resetting plugins due to page load.
+2014-02-27 15:46:47.734 BaiduCaifu[32507:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 16:08:09.414 BaiduCaifu[32742:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 16:08:09.426 BaiduCaifu[32742:80b] Unlimited access to network resources
+2014-02-27 16:08:09.478 BaiduCaifu[32742:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:08:09.479 BaiduCaifu[32742:80b] [CDVTimer][splashscreen] 21.501005ms
+2014-02-27 16:08:09.479 BaiduCaifu[32742:80b] [CDVTimer][TotalPluginStartup] 22.114038ms
+2014-02-27 16:08:09.481 BaiduCaifu[32742:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:08:09.485 BaiduCaifu[32742:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:08:09.486 BaiduCaifu[32742:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:08:09.545 BaiduCaifu[32742:80b] Resetting plugins due to page load.
+2014-02-27 16:08:09.822 BaiduCaifu[32742:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 16:10:04.485 BaiduCaifu[32872:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 16:10:04.506 BaiduCaifu[32872:80b] Unlimited access to network resources
+2014-02-27 16:10:04.629 BaiduCaifu[32872:80b] [CDVTimer][splashscreen] 66.968977ms
+2014-02-27 16:10:04.651 BaiduCaifu[32872:80b] [CDVTimer][TotalPluginStartup] 89.590967ms
+2014-02-27 16:10:05.083 BaiduCaifu[32872:80b] Resetting plugins due to page load.
+2014-02-27 16:10:05.238 BaiduCaifu[32872:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 16:12:41.760 BaiduCaifu[33011:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 16:12:41.785 BaiduCaifu[33011:80b] Unlimited access to network resources
+2014-02-27 16:12:41.936 BaiduCaifu[33011:80b] [CDVTimer][splashscreen] 27.641952ms
+2014-02-27 16:12:41.946 BaiduCaifu[33011:80b] [CDVTimer][TotalPluginStartup] 37.909985ms
+2014-02-27 16:12:42.256 BaiduCaifu[33011:80b] Resetting plugins due to page load.
+2014-02-27 16:12:42.419 BaiduCaifu[33011:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 16:12:42.583 BaiduCaifu[33011:80b] THREAD WARNING: ['Notification'] took '62.013916' ms. Plugin should use a background thread.
+2014-02-27 16:12:42.776 BaiduCaifu[33011:80b] THREAD WARNING: ['Notification'] took '23.731934' ms. Plugin should use a background thread.
+2014-02-27 16:14:38.458 BaiduCaifu[33150:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 16:14:38.472 BaiduCaifu[33150:80b] Unlimited access to network resources
+2014-02-27 16:14:38.505 BaiduCaifu[33150:80b] [CDVTimer][splashscreen] 8.925974ms
+2014-02-27 16:14:38.506 BaiduCaifu[33150:80b] [CDVTimer][TotalPluginStartup] 9.441018ms
+2014-02-27 16:14:38.576 BaiduCaifu[33150:80b] Resetting plugins due to page load.
+2014-02-27 16:14:38.900 BaiduCaifu[33150:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-02-27 16:23:05.572 BaiduCaifu[33323:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 16:23:05.586 BaiduCaifu[33323:80b] Unlimited access to network resources
+2014-02-27 16:23:05.637 BaiduCaifu[33323:80b] [CDVTimer][splashscreen] 14.136016ms
+2014-02-27 16:23:05.637 BaiduCaifu[33323:80b] [CDVTimer][TotalPluginStartup] 14.939010ms
+2014-02-27 16:23:05.969 BaiduCaifu[33323:80b] Resetting plugins due to page load.
+2014-02-27 16:23:06.139 BaiduCaifu[33323:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 16:23:06.315 BaiduCaifu[33323:80b] THREAD WARNING: ['Notification'] took '56.344971' ms. Plugin should use a background thread.
+2014-02-27 16:26:06.343 BaiduCaifu[33689:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 16:26:06.372 BaiduCaifu[33689:80b] Unlimited access to network resources
+2014-02-27 16:26:06.493 BaiduCaifu[33689:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:26:06.501 BaiduCaifu[33689:80b] [CDVTimer][splashscreen] 37.388027ms
+2014-02-27 16:26:06.504 BaiduCaifu[33689:80b] [CDVTimer][TotalPluginStartup] 39.744020ms
+2014-02-27 16:26:06.518 BaiduCaifu[33689:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:26:06.537 BaiduCaifu[33689:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:26:06.550 BaiduCaifu[33689:80b] WARNING: The splashscreen image named Default-Portrait was not found
+2014-02-27 16:26:06.833 BaiduCaifu[33689:80b] Resetting plugins due to page load.
+2014-02-27 16:26:06.999 BaiduCaifu[33689:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 16:26:07.226 BaiduCaifu[33689:80b] THREAD WARNING: ['Notification'] took '26.474854' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-02-27 17:58:04.399 BaiduCaifu[34726:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 17:58:04.443 BaiduCaifu[34726:80b] Unlimited access to network resources
+2014-02-27 17:58:04.842 BaiduCaifu[34726:80b] [CDVTimer][splashscreen] 56.973994ms
+2014-02-27 17:58:04.843 BaiduCaifu[34726:80b] [CDVTimer][TotalPluginStartup] 57.758033ms
+2014-02-27 17:58:05.055 BaiduCaifu[34726:80b] Resetting plugins due to page load.
+2014-02-27 17:58:05.164 BaiduCaifu[34726:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:05:28.165 BaiduCaifu[34880:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:05:28.184 BaiduCaifu[34880:80b] Unlimited access to network resources
+2014-02-27 18:05:28.248 BaiduCaifu[34880:80b] [CDVTimer][splashscreen] 19.896030ms
+2014-02-27 18:05:28.249 BaiduCaifu[34880:80b] [CDVTimer][TotalPluginStartup] 20.658970ms
+2014-02-27 18:05:28.506 BaiduCaifu[34880:80b] Resetting plugins due to page load.
+2014-02-27 18:05:28.677 BaiduCaifu[34880:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:05:28.822 BaiduCaifu[34880:80b] THREAD WARNING: ['Notification'] took '49.576172' ms. Plugin should use a background thread.
+2014-02-27 18:09:09.562 BaiduCaifu[35017:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:09:09.575 BaiduCaifu[35017:80b] Unlimited access to network resources
+2014-02-27 18:09:09.622 BaiduCaifu[35017:80b] [CDVTimer][splashscreen] 11.303008ms
+2014-02-27 18:09:09.623 BaiduCaifu[35017:80b] [CDVTimer][TotalPluginStartup] 12.149990ms
+2014-02-27 18:09:09.919 BaiduCaifu[35017:80b] Resetting plugins due to page load.
+2014-02-27 18:09:10.099 BaiduCaifu[35017:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:09:10.265 BaiduCaifu[35017:80b] THREAD WARNING: ['Notification'] took '52.018066' ms. Plugin should use a background thread.
+2014-02-27 18:10:29.555 BaiduCaifu[35144:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:10:29.565 BaiduCaifu[35144:80b] Unlimited access to network resources
+2014-02-27 18:10:29.619 BaiduCaifu[35144:80b] [CDVTimer][splashscreen] 17.201960ms
+2014-02-27 18:10:29.621 BaiduCaifu[35144:80b] [CDVTimer][TotalPluginStartup] 19.222021ms
+2014-02-27 18:10:29.983 BaiduCaifu[35144:80b] Resetting plugins due to page load.
+2014-02-27 18:10:30.096 BaiduCaifu[35144:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:10:30.317 BaiduCaifu[35144:80b] -[__NSDictionaryM length]: unrecognized selector sent to instance 0xa6a6b50
+2014-02-27 18:10:30.383 BaiduCaifu[35144:80b] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[__NSDictionaryM length]: unrecognized selector sent to instance 0xa6a6b50'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x000d55e4 __exceptionPreprocess + 180
+	1   libobjc.A.dylib                     0x020cf8b6 objc_exception_throw + 44
+	2   CoreFoundation                      0x00172903 -[NSObject(NSObject) doesNotRecognizeSelector:] + 275
+	3   CoreFoundation                      0x000c590b ___forwarding___ + 1019
+	4   CoreFoundation                      0x000c54ee _CF_forwarding_prep_0 + 14
+	5   Foundation                          0x01d148ed -[NSConcreteMutableAttributedString replaceCharactersInRange:withString:] + 39
+	6   Foundation                          0x01d1555a -[NSConcreteMutableAttributedString initWithString:attributes:] + 293
+	7   UIKit                               0x004e8bc6 -[UILabel _setText:] + 97
+	8   UIKit                               0x004e8d84 -[UILabel setText:] + 40
+	9   UIKit                               0x0081684a -[UIAlertView(Private) setBodyText:] + 74
+	10  UIKit                               0x00821f86 -[UIAlertView setMessage:] + 40
+	11  UIKit                               0x008225fe -[UIAlertView initWithTitle:message:delegate:cancelButtonTitle:otherButtonTitles:] + 134
+	12  BaiduCaifu                          0x00024f36 -[CDVNotification showDialogWithMessage:title:buttons:defaultText:callbackId:dialogType:] + 342
+	13  BaiduCaifu                          0x00025366 -[CDVNotification alert:] + 406
+	14  BaiduCaifu                          0x0001af06 -[CDVCommandQueue execute:] + 902
+	15  BaiduCaifu                          0x0001a721 -[CDVCommandQueue executePending] + 865
+	16  libobjc.A.dylib                     0x020e181f -[NSObject performSelector:withObject:] + 70
+	17  Foundation                          0x01d249d8 __NSThreadPerformPerform + 285
+	18  CoreFoundation                      0x0005e83f __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15
+	19  CoreFoundation                      0x0005e1cb __CFRunLoopDoSources0 + 235
+	20  CoreFoundation                      0x0007b29e __CFRunLoopRun + 910
+	21  CoreFoundation                      0x0007aac3 CFRunLoopRunSpecific + 467
+	22  CoreFoundation                      0x0007a8db CFRunLoopRunInMode + 123
+	23  GraphicsServices                    0x035719e2 GSEventRunModal + 192
+	24  GraphicsServices                    0x03571809 GSEventRun + 104
+	25  UIKit                               0x0033bd3b UIApplicationMain + 1225
+	26  BaiduCaifu                          0x000211fc main + 92
+	27  BaiduCaifu                          0x0002118d start + 53
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+2014-02-27 18:12:11.380 BaiduCaifu[35276:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:12:11.390 BaiduCaifu[35276:80b] Unlimited access to network resources
+2014-02-27 18:12:11.423 BaiduCaifu[35276:80b] [CDVTimer][splashscreen] 10.589004ms
+2014-02-27 18:12:11.424 BaiduCaifu[35276:80b] [CDVTimer][TotalPluginStartup] 11.209965ms
+2014-02-27 18:12:11.641 BaiduCaifu[35276:80b] Resetting plugins due to page load.
+2014-02-27 18:12:11.783 BaiduCaifu[35276:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:12:12.013 BaiduCaifu[35276:80b] THREAD WARNING: ['Notification'] took '47.438965' ms. Plugin should use a background thread.
+2014-02-27 18:13:00.183 BaiduCaifu[35397:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:13:00.194 BaiduCaifu[35397:80b] Unlimited access to network resources
+2014-02-27 18:13:00.237 BaiduCaifu[35397:80b] [CDVTimer][splashscreen] 12.836039ms
+2014-02-27 18:13:00.237 BaiduCaifu[35397:80b] [CDVTimer][TotalPluginStartup] 13.650000ms
+2014-02-27 18:13:00.488 BaiduCaifu[35397:80b] Resetting plugins due to page load.
+2014-02-27 18:13:00.701 BaiduCaifu[35397:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:13:38.403 BaiduCaifu[35397:80b] Resetting plugins due to page load.
+2014-02-27 18:13:41.122 BaiduCaifu[35397:80b] Finished load of: http://www.bankrate.com.cn/Fund/590010?utm_source=c10&utm_medium=click&utm_campaign=c10
+Terminating in response to SpringBoard's termination.
+2014-02-27 18:16:32.290 BaiduCaifu[35544:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:16:32.355 BaiduCaifu[35544:80b] Unlimited access to network resources
+2014-02-27 18:16:32.662 BaiduCaifu[35544:80b] [CDVTimer][splashscreen] 51.798046ms
+2014-02-27 18:16:32.664 BaiduCaifu[35544:80b] [CDVTimer][TotalPluginStartup] 53.898990ms
+2014-02-27 18:16:32.887 BaiduCaifu[35544:80b] Resetting plugins due to page load.
+2014-02-27 18:16:33.023 BaiduCaifu[35544:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:19:47.858 BaiduCaifu[35677:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:19:47.868 BaiduCaifu[35677:80b] Unlimited access to network resources
+2014-02-27 18:19:47.906 BaiduCaifu[35677:80b] [CDVTimer][splashscreen] 11.578023ms
+2014-02-27 18:19:47.906 BaiduCaifu[35677:80b] [CDVTimer][TotalPluginStartup] 12.168050ms
+2014-02-27 18:19:48.173 BaiduCaifu[35677:80b] Resetting plugins due to page load.
+2014-02-27 18:19:48.318 BaiduCaifu[35677:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:20:30.371 BaiduCaifu[35799:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:20:30.385 BaiduCaifu[35799:80b] Unlimited access to network resources
+2014-02-27 18:20:30.427 BaiduCaifu[35799:80b] [CDVTimer][splashscreen] 12.758017ms
+2014-02-27 18:20:30.429 BaiduCaifu[35799:80b] [CDVTimer][TotalPluginStartup] 15.214026ms
+2014-02-27 18:20:30.754 BaiduCaifu[35799:80b] Resetting plugins due to page load.
+2014-02-27 18:20:30.910 BaiduCaifu[35799:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:22:36.628 BaiduCaifu[35937:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:22:36.640 BaiduCaifu[35937:80b] Unlimited access to network resources
+2014-02-27 18:22:36.678 BaiduCaifu[35937:80b] [CDVTimer][splashscreen] 11.475027ms
+2014-02-27 18:22:36.678 BaiduCaifu[35937:80b] [CDVTimer][TotalPluginStartup] 12.079000ms
+2014-02-27 18:22:36.989 BaiduCaifu[35937:80b] Resetting plugins due to page load.
+2014-02-27 18:22:37.140 BaiduCaifu[35937:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:23:41.965 BaiduCaifu[36062:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:23:41.977 BaiduCaifu[36062:80b] Unlimited access to network resources
+2014-02-27 18:23:42.016 BaiduCaifu[36062:80b] [CDVTimer][splashscreen] 12.530029ms
+2014-02-27 18:23:42.019 BaiduCaifu[36062:80b] [CDVTimer][TotalPluginStartup] 15.334964ms
+2014-02-27 18:23:42.089 BaiduCaifu[36062:80b] Resetting plugins due to page load.
+2014-02-27 18:23:42.498 BaiduCaifu[36062:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-27 18:24:21.534 BaiduCaifu[36184:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-27 18:24:21.544 BaiduCaifu[36184:80b] Unlimited access to network resources
+2014-02-27 18:24:21.584 BaiduCaifu[36184:80b] [CDVTimer][splashscreen] 13.185978ms
+2014-02-27 18:24:21.585 BaiduCaifu[36184:80b] [CDVTimer][TotalPluginStartup] 13.942003ms
+2014-02-27 18:24:21.949 BaiduCaifu[36184:80b] Resetting plugins due to page load.
+2014-02-27 18:24:22.045 BaiduCaifu[36184:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+Terminating in response to SpringBoard's termination.

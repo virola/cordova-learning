@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="src/css/index.css" />
+    <title>Hello World</title>
+</head>
+<body>
+    <div class="app">
+        <h1>产品大全</h1>
+        <div id="list-info" class="loading">正在加载中...</div>
+        <ul id="list" class="list">
+            <li>
+                <a href="#{rawUrl}">
+                    <div class="info">
+                        <h4>#{title}|<i>保本浮动收益</i></h4>
+                        <p>风险偏好: #{risk}</p>
+                        <p>投资领域: #{investField}</p>
+                        <p>起投金额: #{lowestAmount}</p>
+                        <p>投资周期: #{investCycle}</p>
+                    </div>
+                    <div class="rate">
+                        <h5>#{expectedProfitName}</h5>
+                        <p>#{expectedProfitRate}</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="dep/zepto/zepto.min.js"></script>
+<script type="text/javascript" src="dep/zepto/plugin/fx.js"></script>
+<script type="text/javascript" src="dep/zepto/plugin/fx_method.js"></script>
+<script type="text/javascript" src="src/js/main.js"></script>
+</body>
+</html>
