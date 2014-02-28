@@ -53,8 +53,6 @@ var list = (function () {
 
     var exports = {};
 
-    var URL_LOAN = 'http://caifu.baidu.com/loan/aList?resourceid=1800182&pssid=0&tn=NONE&qid=0&wd=&zt=self&byfilter=%7B%7D&module=Finance&query=&rqid=1393483053139906'
-
     var _params = {
         amount: 0,
         cycle: 0,
@@ -62,14 +60,14 @@ var list = (function () {
         pageSize: 10
     };
 
-    URL_LOAN = 'http://dev005.baidu.com:8888/service/caifu_list.php';
+    var URL_LOAN = 'http://dev005.baidu.com:8888/service/caifu_list.php';
 
     var TPL_ITEM = ''
         + '<li>'
         +     '<a>'
         +         '<div class="info">'
         +             '<h4>#{title}</h4>'
-        +             '<p>风险偏好: #{risk}</p>'
+        +             '<p class="level">#{risk} | #{corp}</p>'
         +             '<p>投资领域: #{investField}</p>'
         +             '<p>起投金额: #{lowestAmount}</p>'
         +             '<p>投资周期: #{investCycle}</p>'
@@ -81,6 +79,9 @@ var list = (function () {
         +         '</div>'
         +     '</a>'
         + '</li>';
+
+
+    var isLoadFinished;
 
     function request(url, data, success, failure) {
         $.ajax({
@@ -102,35 +103,82 @@ var list = (function () {
         });
     }
 
-    function getList(page, type, category) {
-        $('#list-info').text('正在加载中...').show();
+    function getList() {
+        var jLoadMore = $('#list-load-more');
+
+        if (isLoadFinished) {
+            return;
+        }
         
+        changeLoading('show');
+        
+
         request(
             URL_LOAN, 
             _params, 
             function (data) {
-                renderList(data.list);
-                $('#list-info').hide();
+                console.log('success: page:' + data.pageNum);
+                changeLoading('hide');
+
+                renderList(data.list, data.pageNum > 1);
+
+                if (data.count > data.pageSize * data.pageNum) {
+                    jLoadMore.text('点击加载更多').show();
+                }
+                else {
+                    jLoadMore.text('全部加载完毕~').show();
+                    isLoadFinished = 1;
+                }
+                
             }, function (statusInfo, status) {
                 util.alert('fail');
-                $('#list-info').text(statusInfo || '加载出错嘞~').show();
+                changeLoading('show', statusInfo || '加载出错嘞~');
             }
         );
     }
 
-    function renderList(data) {
+    function changeLoading(state, msg) {
+        if (state == 'hide') {
+            $('#list-info').hide();
+        }
+        else {
+            msg = msg || '正在加载中...';
+            $('#list-info').text(msg).show();
+        }
+    }
+
+    function renderList(data, isAppend) {
         var html = [];
 
         for ( var i = 0, len = data.length; i < len; i++ ) {
+            var titles = data[i].title.split(' - ');
+            data[i].title = titles[1];
+            data[i].corp = titles[0];
             html[i] = util.format(TPL_ITEM, data[i]);
         }
 
-        $('#list').html(html.join(''));
+        if (isAppend) {
+            $('#list').append(html.join(''));
+        }
+        else {
+            $('#list').html(html.join(''));
+        }
     }
 
     exports.render = renderList;
 
     exports.getList = getList;
+
+    exports.init = function () {
+
+        var jLoadMore = $('#list-load-more');
+        // 点击加载更多
+        jLoadMore.on('click', function () {
+            _params.pageNum += 1;
+            jLoadMore.hide();
+            getList();
+        });
+    };
 
     return exports;
 })();
@@ -151,18 +199,12 @@ var app = (function () {
 
         
         init: function() {
-
-            // if (isDebug) {
-            //     navigator.notification.alert('break');
-            //     this.onDeviceReady();
-            //     return;
-            // }
             
             document.addEventListener('deviceready', this.onDeviceReady, false);
         },
 
         onDeviceReady: function() {
-
+            list.init();
             list.getList();
         }
     };

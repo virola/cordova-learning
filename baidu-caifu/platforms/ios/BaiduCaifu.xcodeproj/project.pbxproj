@@ -42,6 +42,7 @@
 		25B9102B895F4B049B0C6222 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BF5DF3EDFF402DA27F0489 /* CDVNotification.m */; };
 		C4759DBBC99D49F8A2857E2E /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EA10D31210042D4A3C3457E /* CDVNotification.bundle */; };
 		BA78DD8E58C34A4D93D22E6D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3C41A70CAA49C7AACBA777 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6BE87C6FEF6942868A257DBD /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404C235B2F44DCDB45050AF /* CDVLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		0091F542DDA844509E827E94 /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		2EA10D31210042D4A3C3457E /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
 		CD3C41A70CAA49C7AACBA777 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		8404C235B2F44DCDB45050AF /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F3DC21238BEE4FAEA8FF50A9 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +242,8 @@
 				D74312132DA24E758F591629 /* CDVSplashScreen.h */,
 				E9BF5DF3EDFF402DA27F0489 /* CDVNotification.m */,
 				0091F542DDA844509E827E94 /* CDVNotification.h */,
+				8404C235B2F44DCDB45050AF /* CDVLogger.m */,
+				F3DC21238BEE4FAEA8FF50A9 /* CDVLogger.h */,
 			);
 			name = Plugins;
 			path = "BaiduCaifu/Plugins";
@@ -436,6 +441,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				EAE70F37D3DF49F79E2FE5A7 /* CDVSplashScreen.m in Sources */,
 				25B9102B895F4B049B0C6222 /* CDVNotification.m in Sources */,
+				6BE87C6FEF6942868A257DBD /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

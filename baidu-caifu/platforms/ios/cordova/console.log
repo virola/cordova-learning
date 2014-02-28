@@ -195,3 +195,113 @@ Terminating in response to SpringBoard's termination.
 2014-02-27 18:27:29.180 BaiduCaifu[36629:80b] [CDVTimer][TotalPluginStartup] 12.215972ms
 2014-02-27 18:27:29.252 BaiduCaifu[36629:80b] Resetting plugins due to page load.
 2014-02-27 18:27:29.649 BaiduCaifu[36629:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 11:27:50.307 BaiduCaifu[37842:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 11:27:50.367 BaiduCaifu[37842:80b] Unlimited access to network resources
+2014-02-28 11:27:50.821 BaiduCaifu[37842:80b] [CDVTimer][splashscreen] 66.979051ms
+2014-02-28 11:27:50.822 BaiduCaifu[37842:80b] [CDVTimer][TotalPluginStartup] 68.324983ms
+2014-02-28 11:27:51.003 BaiduCaifu[37842:80b] Resetting plugins due to page load.
+2014-02-28 11:27:51.115 BaiduCaifu[37842:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 11:31:17.620 BaiduCaifu[37986:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 11:31:17.650 BaiduCaifu[37986:80b] Unlimited access to network resources
+2014-02-28 11:31:17.812 BaiduCaifu[37986:80b] [CDVTimer][splashscreen] 27.751982ms
+2014-02-28 11:31:17.827 BaiduCaifu[37986:80b] [CDVTimer][TotalPluginStartup] 43.073952ms
+2014-02-28 11:31:18.101 BaiduCaifu[37986:80b] Resetting plugins due to page load.
+2014-02-28 11:31:18.305 BaiduCaifu[37986:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 11:33:58.501 BaiduCaifu[38123:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 11:33:58.514 BaiduCaifu[38123:80b] Unlimited access to network resources
+2014-02-28 11:33:58.556 BaiduCaifu[38123:80b] [CDVTimer][splashscreen] 13.082027ms
+2014-02-28 11:33:58.557 BaiduCaifu[38123:80b] [CDVTimer][TotalPluginStartup] 13.677001ms
+2014-02-28 11:33:58.839 BaiduCaifu[38123:80b] Resetting plugins due to page load.
+2014-02-28 11:33:59.049 BaiduCaifu[38123:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 11:35:05.364 BaiduCaifu[38284:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 11:35:05.375 BaiduCaifu[38284:80b] Unlimited access to network resources
+2014-02-28 11:35:05.420 BaiduCaifu[38284:80b] [CDVTimer][splashscreen] 14.124990ms
+2014-02-28 11:35:05.421 BaiduCaifu[38284:80b] [CDVTimer][TotalPluginStartup] 14.769018ms
+2014-02-28 11:35:05.755 BaiduCaifu[38284:80b] Resetting plugins due to page load.
+2014-02-28 11:35:05.971 BaiduCaifu[38284:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 11:35:50.928 BaiduCaifu[38407:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 11:35:50.939 BaiduCaifu[38407:80b] Unlimited access to network resources
+2014-02-28 11:35:50.986 BaiduCaifu[38407:80b] [CDVTimer][splashscreen] 15.677989ms
+2014-02-28 11:35:50.987 BaiduCaifu[38407:80b] [CDVTimer][TotalPluginStartup] 16.875982ms
+2014-02-28 11:35:51.331 BaiduCaifu[38407:80b] Resetting plugins due to page load.
+2014-02-28 11:35:51.463 BaiduCaifu[38407:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 11:41:36.087 BaiduCaifu[38601:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 11:41:36.099 BaiduCaifu[38601:80b] Unlimited access to network resources
+2014-02-28 11:41:36.148 BaiduCaifu[38601:80b] [CDVTimer][splashscreen] 15.995026ms
+2014-02-28 11:41:36.149 BaiduCaifu[38601:80b] [CDVTimer][TotalPluginStartup] 16.844988ms
+2014-02-28 11:41:36.508 BaiduCaifu[38601:80b] Resetting plugins due to page load.
+2014-02-28 11:41:36.643 BaiduCaifu[38601:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 13:48:16.006 BaiduCaifu[41094:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 13:48:16.044 BaiduCaifu[41094:80b] Unlimited access to network resources
+2014-02-28 13:48:16.450 BaiduCaifu[41094:80b] [CDVTimer][splashscreen] 56.820989ms
+2014-02-28 13:48:16.455 BaiduCaifu[41094:80b] [CDVTimer][TotalPluginStartup] 61.326981ms
+2014-02-28 13:48:16.723 BaiduCaifu[41094:80b] Resetting plugins due to page load.
+2014-02-28 13:48:16.843 BaiduCaifu[41094:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:37:27.274 BaiduCaifu[43992:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:37:27.342 BaiduCaifu[43992:80b] Unlimited access to network resources
+2014-02-28 15:37:27.598 BaiduCaifu[43992:80b] [CDVTimer][splashscreen] 55.514991ms
+2014-02-28 15:37:27.598 BaiduCaifu[43992:80b] [CDVTimer][TotalPluginStartup] 56.180954ms
+2014-02-28 15:37:27.834 BaiduCaifu[43992:80b] Resetting plugins due to page load.
+2014-02-28 15:37:27.945 BaiduCaifu[43992:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:39:03.131 BaiduCaifu[44123:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:39:03.180 BaiduCaifu[44123:80b] Unlimited access to network resources
+2014-02-28 15:39:03.235 BaiduCaifu[44123:80b] [CDVTimer][splashscreen] 18.036008ms
+2014-02-28 15:39:03.245 BaiduCaifu[44123:80b] [CDVTimer][TotalPluginStartup] 28.219998ms
+2014-02-28 15:39:03.553 BaiduCaifu[44123:80b] Resetting plugins due to page load.
+2014-02-28 15:39:03.656 BaiduCaifu[44123:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:45:10.828 BaiduCaifu[44280:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:45:10.840 BaiduCaifu[44280:80b] Unlimited access to network resources
+2014-02-28 15:45:10.885 BaiduCaifu[44280:80b] [CDVTimer][splashscreen] 12.975037ms
+2014-02-28 15:45:10.888 BaiduCaifu[44280:80b] [CDVTimer][TotalPluginStartup] 15.819013ms
+2014-02-28 15:45:11.173 BaiduCaifu[44280:80b] Resetting plugins due to page load.
+2014-02-28 15:45:11.401 BaiduCaifu[44280:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:46:59.522 BaiduCaifu[44495:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:46:59.532 BaiduCaifu[44495:80b] Unlimited access to network resources
+2014-02-28 15:46:59.569 BaiduCaifu[44495:80b] [CDVTimer][splashscreen] 10.766029ms
+2014-02-28 15:46:59.570 BaiduCaifu[44495:80b] [CDVTimer][TotalPluginStartup] 11.839986ms
+2014-02-28 15:46:59.695 BaiduCaifu[44495:80b] Resetting plugins due to page load.
+2014-02-28 15:46:59.987 BaiduCaifu[44495:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:47:00.201 BaiduCaifu[44495:80b] requesting...
+2014-02-28 15:47:00.213 BaiduCaifu[44495:80b] THREAD WARNING: ['Console'] took '12.219971' ms. Plugin should use a background thread.
+2014-02-28 15:49:16.659 BaiduCaifu[44752:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:49:16.670 BaiduCaifu[44752:80b] Unlimited access to network resources
+2014-02-28 15:49:16.703 BaiduCaifu[44752:80b] [CDVTimer][splashscreen] 9.689987ms
+2014-02-28 15:49:16.703 BaiduCaifu[44752:80b] [CDVTimer][TotalPluginStartup] 10.159969ms
+2014-02-28 15:49:17.056 BaiduCaifu[44752:80b] Resetting plugins due to page load.
+2014-02-28 15:49:17.157 BaiduCaifu[44752:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:49:17.244 BaiduCaifu[44752:80b] requesting...
+2014-02-28 15:49:25.483 BaiduCaifu[44752:80b] requesting...
+2014-02-28 15:49:32.169 BaiduCaifu[44752:80b] requesting...
+2014-02-28 15:51:43.671 BaiduCaifu[44906:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:51:43.684 BaiduCaifu[44906:80b] Unlimited access to network resources
+2014-02-28 15:51:43.734 BaiduCaifu[44906:80b] [CDVTimer][splashscreen] 17.039955ms
+2014-02-28 15:51:43.737 BaiduCaifu[44906:80b] [CDVTimer][TotalPluginStartup] 20.545959ms
+2014-02-28 15:51:44.020 BaiduCaifu[44906:80b] Resetting plugins due to page load.
+2014-02-28 15:51:44.220 BaiduCaifu[44906:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:51:44.323 BaiduCaifu[44906:80b] requesting...page:1
+2014-02-28 15:51:44.439 BaiduCaifu[44906:80b] success: page:1
+2014-02-28 15:51:49.774 BaiduCaifu[44906:80b] requesting...page:undefined
+2014-02-28 15:51:49.803 BaiduCaifu[44906:80b] success: page:0
+2014-02-28 15:52:26.157 BaiduCaifu[45037:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 15:52:26.165 BaiduCaifu[45037:80b] Unlimited access to network resources
+2014-02-28 15:52:26.203 BaiduCaifu[45037:80b] [CDVTimer][splashscreen] 14.217019ms
+2014-02-28 15:52:26.204 BaiduCaifu[45037:80b] [CDVTimer][TotalPluginStartup] 15.199959ms
+2014-02-28 15:52:26.478 BaiduCaifu[45037:80b] Resetting plugins due to page load.
+2014-02-28 15:52:26.608 BaiduCaifu[45037:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8FF8EBCD-C41F-4917-816D-CED95475FF68/BaiduCaifu.app/www/index.html
+2014-02-28 15:52:26.677 BaiduCaifu[45037:80b] requesting...page:1
+2014-02-28 15:52:26.818 BaiduCaifu[45037:80b] success: page:1
+2014-02-28 15:52:30.534 BaiduCaifu[45037:80b] requesting...page:2
+2014-02-28 15:52:30.616 BaiduCaifu[45037:80b] success: page:2
+2014-02-28 15:52:30.617 BaiduCaifu[45037:80b] ["<li><a><div class=\"info\"><h4>平安财富-周末发（保本）现金管理类2014年</h4><p class=\"level\">保守型 | 平安银行</p><p>投资领域: 货币票据</p><p>起投金额: 500万</p><p>投资周期: 1个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>3.95</p></div></a></li>","<li><a><div class=\"info\"><h4>动态灵活配置混合</h4><p class=\"level\">稳健型 | 华安基金</p><p>投资领域: 股票、债券</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>27.84</p></div></a></li>","<li><a><div class=\"info\"><h4>逆向策略股票</h4><p class=\"level\">稳健型 | 华安基金</p><p>投资领域: 股票市场</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>35.51</p></div></a></li>","<li><a><div class=\"info\"><h4>富国国有企业债债券A/B</h4><p class=\"level\">稳健型 | 富国基金</p><p>投资领域: 债券混合</p><p>起投金额: 100元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.80</p></div></a></li>","<li><a><div class=\"info\"><h4>中银理财30天债券A</h4><p class=\"level\">稳健型 | 中银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-70.55</p></div></a></li>","<li><a><div class=\"info\"><h4>中银盛利定期开放债券(LOF)</h4><p class=\"level\">稳健型 | 中银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.00</p></div></a></li>","<li><a><div class=\"info\"><h4>宝利B</h4><p class=\"level\">稳健型 | 安信基金</p><p>投资领域: 债券混合</p><p>起投金额: 5万</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-2.00</p></div></a></li>","<li><a><div class=\"info\"><h4>浦银安盛6个月定期债券C</h4><p class=\"level\">稳健型 | 浦银安盛基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-5.10</p></div></a></li>","<li><a><div class=\"info\"><h4>鹏华丰实定期开放债券A</h4><p class=\"level\">稳健型 | 鹏华基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-3.70</p></div></a></li>","<li><a><div class=\"info\"><h4>中银添利债券发起</h4><p class=\"level\">稳健型 | 中银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>1.00</p></div></a></li>"]
+2014-02-28 15:52:35.738 BaiduCaifu[45037:80b] requesting...page:3
+2014-02-28 15:52:35.803 BaiduCaifu[45037:80b] success: page:3
+2014-02-28 15:52:35.804 BaiduCaifu[45037:80b] ["<li><a><div class=\"info\"><h4>鹏华双债保利债券</h4><p class=\"level\">稳健型 | 鹏华基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>1.50</p></div></a></li>","<li><a><div class=\"info\"><h4>平安财富-私行专享尊贵组合A资产管理类201</h4><p class=\"level\">稳健型 | 平安银行</p><p>投资领域: 商品期货</p><p>起投金额: 100万</p><p>投资周期: 3个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>6.45</p></div></a></li>","<li><a><div class=\"info\"><h4>交银双轮动债券A/B</h4><p class=\"level\">稳健型 | 交银施罗德基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>1.30</p></div></a></li>","<li><a><div class=\"info\"><h4>光大保德信添天盈季度理财券B</h4><p class=\"level\">稳健型 | 光大保德信基金</p><p>投资领域: 债券混合</p><p>起投金额: 500万</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>6.75</p></div></a></li>","<li><a><div class=\"info\"><h4>平安财富尊贵组合A资产管理类2014年12期人</h4><p class=\"level\">稳健型 | 平安银行</p><p>投资领域: 商品期货</p><p>起投金额: 100万</p><p>投资周期: 3个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>6.35</p></div></a></li>","<li><a><div class=\"info\"><h4>新华纯债添利债券发起A</h4><p class=\"level\">稳健型 | 新华基金</p><p>投资领域: 债券混合</p><p>起投金额: 500元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>2.27</p></div></a></li>","<li><a><div class=\"info\"><h4>“金钥匙·安心得利”2014年第1139期网银</h4><p class=\"level\">稳健型 | 农业银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 3个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.30</p></div></a></li>","<li><a><div class=\"info\"><h4>紫气东来稳健系列人民币理财计划148期HBGP</h4><p class=\"level\">稳健型 | 湖北银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 7个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>6.20</p></div></a></li>","<li><a><div class=\"info\"><h4>融通通泽一年目标触发式混合基金</h4><p class=\"level\">稳健型 | 融通基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.00</p></div></a></li>","<li><a><div class=\"info\"><h4>民生蓝筹</h4><p class=\"level\">稳健型 | 民生加银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>8.37</p></div></a></li>"]
+2014-02-28 15:52:39.967 BaiduCaifu[45037:80b] requesting...page:4
+2014-02-28 15:52:40.031 BaiduCaifu[45037:80b] success: page:4
+2014-02-28 15:52:40.031 BaiduCaifu[45037:80b] ["<li><a><div class=\"info\"><h4>个人专项理财2014年第97期同享盈计划23011</h4><p class=\"level\">稳健型 | 浦发银行</p><p>投资领域: 商品期货</p><p>起投金额: 30万</p><p>投资周期: 2个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.90</p></div></a></li>","<li><a><div class=\"info\"><h4>国富成长</h4><p class=\"level\">激进型 | 国海富兰克林基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-7.87</p></div></a></li>","<li><a><div class=\"info\"><h4>华泰成长</h4><p class=\"level\">稳健型 | 华泰柏瑞基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-2.29</p></div></a></li>","<li><a><div class=\"info\"><h4>大成保本</h4><p class=\"level\">稳健型 | 大成基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-0.86</p></div></a></li>","<li><a><div class=\"info\"><h4>金鹰小盘</h4><p class=\"level\">激进型 | 金鹰基金</p><p>投资领域: 股票境外</p><p>起投金额: 500元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>18.32</p></div></a></li>","<li><a><div class=\"info\"><h4>华商稳健B</h4><p class=\"level\">稳健型 | 华商基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>3.39</p></div></a></li>","<li><a><div class=\"info\"><h4>嘉实多元Ａ</h4><p class=\"level\">稳健型 | 嘉实基金</p><p>投资领域: 债券混合</p><p>起投金额: 5000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-2.43</p></div></a></li>","<li><a><div class=\"info\"><h4>鹏华债券A</h4><p class=\"level\">稳健型 | 鹏华基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-1.61</p></div></a></li>","<li><a><div class=\"info\"><h4>银河银信B</h4><p class=\"level\">稳健型 | 银河基金</p><p>投资领域: 债券混合</p><p>起投金额: 10元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-1.37</p></div></a></li>","<li><a><div class=\"info\"><h4>建信安心保本混合</h4><p class=\"level\">稳健型 | 建信基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>1.40</p></div></a></li>"]
+2014-02-28 15:52:44.091 BaiduCaifu[45037:80b] requesting...page:5
+2014-02-28 15:52:44.177 BaiduCaifu[45037:80b] success: page:5
+2014-02-28 15:52:44.178 BaiduCaifu[45037:80b] ["<li><a><div class=\"info\"><h4>中银增长</h4><p class=\"level\">激进型 | 中银基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>3.29</p></div></a></li>","<li><a><div class=\"info\"><h4>华夏希望A</h4><p class=\"level\">稳健型 | 华夏基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.48</p></div></a></li>","<li><a><div class=\"info\"><h4>嘉实稳健</h4><p class=\"level\">稳健型 | 嘉实基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.45</p></div></a></li>","<li><a><div class=\"info\"><h4>融通通泰保本</h4><p class=\"level\">稳健型 | 融通基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>1.70</p></div></a></li>","<li><a><div class=\"info\"><h4>基金金鑫</h4><p class=\"level\">激进型 | 国泰基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>37.10</p></div></a></li>","<li><a><div class=\"info\"><h4>宝盈增长</h4><p class=\"level\">激进型 | 宝盈基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>2.12</p></div></a></li>","<li><a><div class=\"info\"><h4>中欧成长优选混合</h4><p class=\"level\">稳健型 | 中欧基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>7.60</p></div></a></li>","<li><a><div class=\"info\"><h4>个人专项理财2014年第96期同享盈计划23011</h4><p class=\"level\">稳健型 | 浦发银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 13个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.90</p></div></a></li>","<li><a><div class=\"info\"><h4>天弘安康养老混合</h4><p class=\"level\">稳健型 | 天弘基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>4.48</p></div></a></li>","<li><a><div class=\"info\"><h4>华安创新</h4><p class=\"level\">稳健型 | 华安基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>8.94</p></div></a></li>"]
+2014-02-28 15:52:47.483 BaiduCaifu[45037:80b] requesting...page:6
+2014-02-28 15:52:47.540 BaiduCaifu[45037:80b] success: page:6
+2014-02-28 15:52:47.540 BaiduCaifu[45037:80b] ["<li><a><div class=\"info\"><h4>中银保本混合</h4><p class=\"level\">稳健型 | 中银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>2.91</p></div></a></li>","<li><a><div class=\"info\"><h4>海富回报</h4><p class=\"level\">稳健型 | 海富通基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.76</p></div></a></li>","<li><a><div class=\"info\"><h4>价值智选混合</h4><p class=\"level\">稳健型 | 中欧基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>17.50</p></div></a></li>","<li><a><div class=\"info\"><h4>易基平稳</h4><p class=\"level\">稳健型 | 易方达基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>23.35</p></div></a></li>","<li><a><div class=\"info\"><h4>2014年第14期\"工银财富\"专属资产组合投资</h4><p class=\"level\">不详 | 工商银行</p><p>投资领域: 商品期货</p><p>起投金额: 100万</p><p>投资周期: 6个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.95</p></div></a></li>","<li><a><div class=\"info\"><h4>个人专项理财2014年第94期同享盈计划23011</h4><p class=\"level\">稳健型 | 浦发银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 4个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.90</p></div></a></li>","<li><a><div class=\"info\"><h4>个人专项理财2014年第95期同享盈计划23011</h4><p class=\"level\">稳健型 | 浦发银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 7个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.90</p></div></a></li>","<li><a><div class=\"info\"><h4>澳银稳定B</h4><p class=\"level\">稳健型 | 信达澳银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-3.44</p></div></a></li>","<li><a><div class=\"info\"><h4>海富股票</h4><p class=\"level\">激进型 | 海富通基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>8.27</p></div></a></li>","<li><a><div class=\"info\"><h4>景顺增长</h4><p class=\"level\">稳健型 | 景顺长城基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>56.91</p></div></a></li>"]
