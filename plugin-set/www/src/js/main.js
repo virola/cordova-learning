@@ -18,8 +18,7 @@ var app = (function () {
         },
 
         onDeviceReady: function() {
-            console.log('ready');
-            util.alert('deviceready~~');
+            console.log('~~~~~index page ready~~~~');
         }
     };
 

@@ -64,7 +64,7 @@ var list = (function () {
 
     var TPL_ITEM = ''
         + '<li>'
-        +     '<a>'
+        +     '<a data-href="#{rawUrl}">'
         +         '<div class="info">'
         +             '<h4>#{title}</h4>'
         +             '<p class="level">#{risk} | #{corp}</p>'
@@ -112,7 +112,6 @@ var list = (function () {
         
         changeLoading('show');
         
-        console.log('requesting...page:' + _params.pageNum);
 
         request(
             URL_LOAN, 
@@ -160,7 +159,6 @@ var list = (function () {
 
         if (isAppend) {
             $('#list').append(html.join(''));
-            console.log(html);
         }
         else {
             $('#list').html(html.join(''));
@@ -171,6 +169,25 @@ var list = (function () {
 
     exports.getList = getList;
 
+    var appBrowser;
+
+    function createBrowser(url) {
+        appBrowser = window.open(url, '_blank', 'location=yes,closebuttoncaption=关闭');
+
+        appBrowser.addEventListener('loadstart', function() { 
+            console.log('type:' + event.type + 'url:' + event.url); 
+        });
+        appBrowser.addEventListener('loadstop', function() { 
+            console.log('type:' + event.type); 
+        });
+        appBrowser.addEventListener('loaderror', function() { 
+            console.log('type:' + event.type + '|msg:' + event.message); 
+        });
+        appBrowser.addEventListener('exit', function() { 
+            console.log('type:' + event.type); 
+        });
+    }
+
     exports.init = function () {
 
         var jLoadMore = $('#list-load-more');
@@ -180,7 +197,17 @@ var list = (function () {
             jLoadMore.hide();
             getList();
         });
+
+        console.log('bind list');
+
+        // bind url click
+        $('#list').on('click', 'a', function () {
+            console.log('link click!');
+            var url = $(this).attr('data-href');
+            createBrowser(url);
+        });
     };
+
 
     return exports;
 })();

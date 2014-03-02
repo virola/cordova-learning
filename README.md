@@ -18,3 +18,7 @@ cordova-learning
 
 - 使用ajax进行数据交互
 - inAppBrowser的使用
+
+### plugin-set
+
+覆盖了大部分cordova的API插件的示例

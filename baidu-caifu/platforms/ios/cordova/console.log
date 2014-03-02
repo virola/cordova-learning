@@ -305,3 +305,94 @@ Terminating in response to SpringBoard's termination.
 2014-02-28 15:52:47.483 BaiduCaifu[45037:80b] requesting...page:6
 2014-02-28 15:52:47.540 BaiduCaifu[45037:80b] success: page:6
 2014-02-28 15:52:47.540 BaiduCaifu[45037:80b] ["<li><a><div class=\"info\"><h4>中银保本混合</h4><p class=\"level\">稳健型 | 中银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>2.91</p></div></a></li>","<li><a><div class=\"info\"><h4>海富回报</h4><p class=\"level\">稳健型 | 海富通基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>0.76</p></div></a></li>","<li><a><div class=\"info\"><h4>价值智选混合</h4><p class=\"level\">稳健型 | 中欧基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>17.50</p></div></a></li>","<li><a><div class=\"info\"><h4>易基平稳</h4><p class=\"level\">稳健型 | 易方达基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>23.35</p></div></a></li>","<li><a><div class=\"info\"><h4>2014年第14期\"工银财富\"专属资产组合投资</h4><p class=\"level\">不详 | 工商银行</p><p>投资领域: 商品期货</p><p>起投金额: 100万</p><p>投资周期: 6个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.95</p></div></a></li>","<li><a><div class=\"info\"><h4>个人专项理财2014年第94期同享盈计划23011</h4><p class=\"level\">稳健型 | 浦发银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 4个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.90</p></div></a></li>","<li><a><div class=\"info\"><h4>个人专项理财2014年第95期同享盈计划23011</h4><p class=\"level\">稳健型 | 浦发银行</p><p>投资领域: 商品期货</p><p>起投金额: 5万</p><p>投资周期: 7个月</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>预期收益率</h5><p>5.90</p></div></a></li>","<li><a><div class=\"info\"><h4>澳银稳定B</h4><p class=\"level\">稳健型 | 信达澳银基金</p><p>投资领域: 债券混合</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>-3.44</p></div></a></li>","<li><a><div class=\"info\"><h4>海富股票</h4><p class=\"level\">激进型 | 海富通基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>8.27</p></div></a></li>","<li><a><div class=\"info\"><h4>景顺增长</h4><p class=\"level\">稳健型 | 景顺长城基金</p><p>投资领域: 股票境外</p><p>起投金额: 1000元</p><p>投资周期: 一个月以下</p></div><div class=\"rate\"><i>保本浮动收益</i><h5>年净值增长率</h5><p>56.91</p></div></a></li>"]
+2014-02-28 19:20:05.359 BaiduCaifu[53943:80b] Multi-tasking -> Device: YES, App: YES
+2014-02-28 19:20:05.375 BaiduCaifu[53943:80b] Unlimited access to network resources
+2014-02-28 19:20:05.422 BaiduCaifu[53943:80b] [CDVTimer][splashscreen] 17.827988ms
+2014-02-28 19:20:05.423 BaiduCaifu[53943:80b] [CDVTimer][TotalPluginStartup] 18.463969ms
+2014-02-28 19:20:05.549 BaiduCaifu[53943:80b] Resetting plugins due to page load.
+2014-02-28 19:20:05.843 BaiduCaifu[53943:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03AFB4D3-AEFF-4C77-836A-4A5A2B4E5C18/BaiduCaifu.app/www/index.html
+2014-02-28 19:20:06.316 BaiduCaifu[53943:80b] success: page:1
+2014-02-28 19:20:11.867 BaiduCaifu[53943:80b] success: page:2
+2014-02-28 19:20:19.022 BaiduCaifu[53943:80b] success: page:3
+2014-02-28 19:20:24.417 BaiduCaifu[53943:80b] success: page:4
+2014-03-02 11:06:16.265 BaiduCaifu[55302:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 11:06:16.279 BaiduCaifu[55302:80b] Unlimited access to network resources
+2014-03-02 11:06:16.425 BaiduCaifu[55302:80b] [CDVTimer][splashscreen] 20.097971ms
+2014-03-02 11:06:16.425 BaiduCaifu[55302:80b] [CDVTimer][TotalPluginStartup] 20.554006ms
+2014-03-02 11:06:16.736 BaiduCaifu[55302:80b] Resetting plugins due to page load.
+2014-03-02 11:06:16.860 BaiduCaifu[55302:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/03AFB4D3-AEFF-4C77-836A-4A5A2B4E5C18/BaiduCaifu.app/www/index.html
+2014-03-02 17:23:03.102 BaiduCaifu[63836:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 17:23:03.117 BaiduCaifu[63836:80b] Unlimited access to network resources
+2014-03-02 17:23:03.153 BaiduCaifu[63836:80b] [CDVTimer][splashscreen] 11.000991ms
+2014-03-02 17:23:03.154 BaiduCaifu[63836:80b] [CDVTimer][TotalPluginStartup] 11.594951ms
+2014-03-02 17:23:03.347 BaiduCaifu[63836:80b] Resetting plugins due to page load.
+2014-03-02 17:23:03.511 BaiduCaifu[63836:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D9032B54-7E9E-4B96-9FB4-597EBD98C655/BaiduCaifu.app/www/index.html
+2014-03-02 17:23:04.360 BaiduCaifu[63836:80b] success: page:1
+2014-03-02 17:23:06.709 BaiduCaifu[63836:80b] CDVWebViewDelegate: Navigation started when state=1
+2014-03-02 17:23:06.709 BaiduCaifu[63836:80b] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-03-02 17:23:06.710 BaiduCaifu[63836:80b] Resetting plugins due to page load.
+2014-03-02 17:23:39.939 BaiduCaifu[63836:80b] Finished load of: http://www.bankrate.com.cn/Fund/380005?utm_source=c10&utm_medium=click&utm_campaign=c10
+2014-03-02 17:27:21.341 BaiduCaifu[64054:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 17:27:21.352 BaiduCaifu[64054:80b] Unlimited access to network resources
+2014-03-02 17:27:21.386 BaiduCaifu[64054:80b] [CDVTimer][splashscreen] 10.439038ms
+2014-03-02 17:27:21.387 BaiduCaifu[64054:80b] [CDVTimer][TotalPluginStartup] 11.022985ms
+2014-03-02 17:27:21.690 BaiduCaifu[64054:80b] Resetting plugins due to page load.
+2014-03-02 17:27:21.763 BaiduCaifu[64054:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D9032B54-7E9E-4B96-9FB4-597EBD98C655/BaiduCaifu.app/www/index.html
+2014-03-02 17:27:21.961 BaiduCaifu[64054:80b] success: page:1
+2014-03-02 17:27:28.007 BaiduCaifu[64054:80b] CDVWebViewDelegate: Navigation started when state=1
+2014-03-02 17:27:28.008 BaiduCaifu[64054:80b] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-03-02 17:27:28.009 BaiduCaifu[64054:80b] Resetting plugins due to page load.
+2014-03-02 17:33:45.149 BaiduCaifu[64054:80b] Finished load of: http://www.bankrate.com.cn/Fund/590010?utm_source=c10&utm_medium=click&utm_campaign=c10
+2014-03-02 17:33:57.723 BaiduCaifu[64202:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 17:33:57.732 BaiduCaifu[64202:80b] Unlimited access to network resources
+2014-03-02 17:33:57.763 BaiduCaifu[64202:80b] [CDVTimer][splashscreen] 10.537982ms
+2014-03-02 17:33:57.764 BaiduCaifu[64202:80b] [CDVTimer][TotalPluginStartup] 11.119008ms
+2014-03-02 17:33:58.086 BaiduCaifu[64202:80b] Resetting plugins due to page load.
+2014-03-02 17:33:58.222 BaiduCaifu[64202:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D9032B54-7E9E-4B96-9FB4-597EBD98C655/BaiduCaifu.app/www/index.html
+2014-03-02 17:33:58.428 BaiduCaifu[64202:80b] success: page:1
+2014-03-02 17:34:00.010 BaiduCaifu[64202:80b] -[__NSCFString charValue]: unrecognized selector sent to instance 0xa67ffb0
+2014-03-02 17:34:00.019 BaiduCaifu[64202:80b] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[__NSCFString charValue]: unrecognized selector sent to instance 0xa67ffb0
+2014-03-02 17:34:02.496 BaiduCaifu[64202:80b] -[__NSCFString charValue]: unrecognized selector sent to instance 0xa79d4b0
+2014-03-02 17:34:02.496 BaiduCaifu[64202:80b] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[__NSCFString charValue]: unrecognized selector sent to instance 0xa79d4b0
+2014-03-02 17:34:04.264 BaiduCaifu[64202:80b] -[__NSCFString charValue]: unrecognized selector sent to instance 0xa79daa0
+2014-03-02 17:34:04.264 BaiduCaifu[64202:80b] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[__NSCFString charValue]: unrecognized selector sent to instance 0xa79daa0
+2014-03-02 17:35:16.692 BaiduCaifu[64344:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 17:35:16.703 BaiduCaifu[64344:80b] Unlimited access to network resources
+2014-03-02 17:35:16.759 BaiduCaifu[64344:80b] [CDVTimer][splashscreen] 15.281022ms
+2014-03-02 17:35:16.760 BaiduCaifu[64344:80b] [CDVTimer][TotalPluginStartup] 16.357958ms
+2014-03-02 17:35:16.867 BaiduCaifu[64344:80b] Resetting plugins due to page load.
+2014-03-02 17:35:17.036 BaiduCaifu[64344:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D9032B54-7E9E-4B96-9FB4-597EBD98C655/BaiduCaifu.app/www/index.html
+2014-03-02 17:35:17.106 BaiduCaifu[64344:80b] bind list
+2014-03-02 17:35:17.241 BaiduCaifu[64344:80b] success: page:1
+2014-03-02 17:35:51.801 BaiduCaifu[64344:80b] success: page:2
+2014-03-02 17:35:56.030 BaiduCaifu[64344:80b] success: page:3
+2014-03-02 17:36:00.331 BaiduCaifu[64344:80b] link click!
+2014-03-02 17:36:00.332 BaiduCaifu[64344:80b] -[__NSCFString charValue]: unrecognized selector sent to instance 0xa786b50
+2014-03-02 17:36:00.333 BaiduCaifu[64344:80b] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[__NSCFString charValue]: unrecognized selector sent to instance 0xa786b50
+2014-03-02 17:41:05.548 BaiduCaifu[64562:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 17:41:05.558 BaiduCaifu[64562:80b] Unlimited access to network resources
+2014-03-02 17:41:05.593 BaiduCaifu[64562:80b] [CDVTimer][splashscreen] 11.741042ms
+2014-03-02 17:41:05.608 BaiduCaifu[64562:80b] [CDVTimer][TotalPluginStartup] 25.997043ms
+2014-03-02 17:41:05.879 BaiduCaifu[64562:80b] Resetting plugins due to page load.
+2014-03-02 17:41:05.986 BaiduCaifu[64562:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D9032B54-7E9E-4B96-9FB4-597EBD98C655/BaiduCaifu.app/www/index.html
+2014-03-02 17:41:06.119 BaiduCaifu[64562:80b] bind list
+2014-03-02 17:41:06.256 BaiduCaifu[64562:80b] success: page:1
+2014-03-02 17:41:18.473 BaiduCaifu[64562:80b] link click!
+2014-03-02 17:41:18.506 BaiduCaifu[64562:80b] THREAD WARNING: ['InAppBrowser'] took '32.225830' ms. Plugin should use a background thread.
+2014-03-02 17:41:48.116 BaiduCaifu[64562:80b] link click!
+2014-03-02 17:42:01.108 BaiduCaifu[64562:80b] link click!
+2014-03-02 17:43:27.771 BaiduCaifu[64698:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-02 17:43:27.780 BaiduCaifu[64698:80b] Unlimited access to network resources
+2014-03-02 17:43:27.816 BaiduCaifu[64698:80b] [CDVTimer][splashscreen] 12.415946ms
+2014-03-02 17:43:27.825 BaiduCaifu[64698:80b] [CDVTimer][TotalPluginStartup] 21.283031ms
+2014-03-02 17:43:28.075 BaiduCaifu[64698:80b] Resetting plugins due to page load.
+2014-03-02 17:43:28.183 BaiduCaifu[64698:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/D9032B54-7E9E-4B96-9FB4-597EBD98C655/BaiduCaifu.app/www/index.html
+2014-03-02 17:43:28.335 BaiduCaifu[64698:80b] bind list
+2014-03-02 17:43:28.478 BaiduCaifu[64698:80b] success: page:1
+2014-03-02 17:43:31.643 BaiduCaifu[64698:80b] link click!
+2014-03-02 17:43:31.679 BaiduCaifu[64698:80b] THREAD WARNING: ['InAppBrowser'] took '35.554199' ms. Plugin should use a background thread.
+2014-03-02 17:44:53.532 BaiduCaifu[64698:80b] link click!
+2014-03-02 17:45:01.889 BaiduCaifu[64698:80b] link click!
+2014-03-02 18:50:19.276 BaiduCaifu[64698:80b] link click!
+2014-03-02 18:50:23.314 BaiduCaifu[64698:80b] link click!
+2014-03-02 18:50:28.643 BaiduCaifu[64698:80b] link click!

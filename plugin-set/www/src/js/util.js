@@ -66,14 +66,44 @@ var util = {
     },
 
     bind: function (eventname, eventfn) {
-        window.addEventListener(eventname, eventfn, false);
+        document.addEventListener(eventname, eventfn, false);
     },
 
     unbind: function (eventname, eventfn) {
-        window.removeEventListener(eventname, eventfn, false);
+        document.removeEventListener(eventname, eventfn, false);
     }
 };
 
-window.addEventListener('error', function () {
-    console.log(arguments);
-}, false);
+window.onerror = function (msg, url, line) {
+    util.alert(msg + '| line:' + line);
+};
+
+
+util.bind('pause', function () {
+
+    // iOS不支持pause事件即时触发
+    console.log('device pause...');
+});
+
+// resign instead of pause
+util.bind('resign', function () {
+    console.log('device resign...');
+});
+
+util.bind('resume', function () {
+    console.log('device resume...');
+});
+
+// active instead of resume
+util.bind('active', function () {
+    console.log('device active...');
+});
+
+// not in iOS
+util.bind('backbutton', function () {
+    console.log('device backbutton fire...');
+});
+util.bind('menubutton', function () {
+    console.log('device menubutton fire...');
+});
+

@@ -34,7 +34,7 @@ ul, li, ol, dl, dt, dd {
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     margin: 0px;
     overflow:visible;
@@ -62,6 +62,11 @@ input {
     outline: 0;
 }
 
+dt {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+
 .break {
     color: #b3b3b3;
 }
@@ -84,8 +89,24 @@ input {
     color: #ddd;
 }
 
-.link-color {
+a, .link-color {
     color: #03C;
 }
 
 
+
+
+/* file.html */
+.img-show {
+    border: 1px solid #eba541;
+}
+.img-show img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.list li {
+    border-bottom: 1px solid #9cf;
+}
