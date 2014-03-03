@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.virola.fun"
+    version="1.0.0">
+    <name>Fun Plugin</name>
+    <author>virola</author>
+    <description>一个测试cordova插件的例子</description>
+    <keywords>cordova, test, fun</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <js-module src="www/fun.js" name="fun">
+        <clobbers target="window.plugins.fun" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Echo">
+                <param name="ios-package" value="Echo" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/Echo.h"/>
+        <source-file src="src/ios/Echo.m"/>
+    </platform>
+</plugin>
