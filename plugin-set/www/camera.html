@@ -11,22 +11,19 @@
 <body>
     <div class="app">
         <h1><a href="index.html">返回</a></h1>
-        <h1>File</h1>
+        <h1>Camera</h1>
         <dl>
-            <dt>File System test</dt>
+            <dt>Camera API test</dt>
             <dd>
-                <input type="file" id="files" name="files[]" multiple />
-                <p id="list-buttons">
-                    <button>add files</button>|<button>list</button>|<button>remove</button>
-                </p>
-                <ul id="list-output"></ul>
-                <output id="list" class="list"></output>
+                <p><button id="start-camera">Take a photo</button><p>
+                <p><button id="choose-picture">Choose picture from album</button><p>
+                <p class="img-show"><img id="my-image" ></p>
             </dd>
         </dl>
     </div>
 
 <script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="src/file.js"></script>
+<script type="text/javascript" src="src/camera.js"></script>
 
 </body>
 </html>

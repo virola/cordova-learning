@@ -43,7 +43,9 @@ var file = (function () {
                 break;
             }
 
-            
+            // TODO
+            // 如何把文件属性变成文件路径以上传？
+            upload(file.name);
         });
 
         $('#files').on('change', selectFiles);

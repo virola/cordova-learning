@@ -724,3 +724,103 @@ Terminating in response to SpringBoard's termination.
 2014-03-02 17:14:19.438 Plugins[63488:80b] Resetting plugins due to page load.
 2014-03-02 17:14:19.448 Plugins[63488:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8797713C-58ED-449B-BECE-B94E65D5988B/Plugins.app/www/index.html
 2014-03-02 17:14:19.476 Plugins[63488:80b] ~~~~~index page ready~~~~
+2014-03-03 18:04:54.225 Plugins[71644:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 18:04:54.240 Plugins[71644:80b] Unlimited access to network resources
+2014-03-03 18:04:54.362 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:04:54.673 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:04:54.853 Plugins[71644:80b] ~~~~~index page ready~~~~
+2014-03-03 18:05:12.851 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:12.867 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/device.html
+2014-03-03 18:05:18.488 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:18.499 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:05:18.530 Plugins[71644:80b] ~~~~~index page ready~~~~
+2014-03-03 18:05:20.043 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:20.079 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/geolocation.html
+2014-03-03 18:05:20.088 Plugins[71644:80b] geolocation deviceready
+2014-03-03 18:05:20.089 Plugins[71644:80b] location init.....
+2014-03-03 18:05:21.503 Plugins[71644:80b] device resign...
+2014-03-03 18:05:23.302 Plugins[71644:80b] device active...
+2014-03-03 18:05:27.992 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:28.002 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:05:28.031 Plugins[71644:80b] ~~~~~index page ready~~~~
+2014-03-03 18:05:29.965 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:30.000 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/file.html
+2014-03-03 18:05:30.024 Plugins[71644:80b] appppppp init222222======
+2014-03-03 18:05:30.024 Plugins[71644:80b] camera init start...
+2014-03-03 18:05:30.025 Plugins[71644:80b] ======file api supported====
+2014-03-03 18:05:30.025 Plugins[71644:80b] =====requestFileSystem INIT=====
+2014-03-03 18:05:32.275 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:32.288 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:05:32.318 Plugins[71644:80b] ~~~~~index page ready~~~~
+2014-03-03 18:05:37.743 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:37.770 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/upload.html
+2014-03-03 18:05:37.785 Plugins[71644:80b] deviceready
+2014-03-03 18:05:37.786 Plugins[71644:80b] init file options
+2014-03-03 18:05:39.147 Plugins[71644:80b] Resetting plugins due to page load.
+2014-03-03 18:05:39.157 Plugins[71644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:05:39.183 Plugins[71644:80b] ~~~~~index page ready~~~~
+2014-03-03 18:08:56.328 Plugins[71880:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 18:08:56.339 Plugins[71880:80b] Unlimited access to network resources
+2014-03-03 18:08:56.444 Plugins[71880:80b] Resetting plugins due to page load.
+2014-03-03 18:08:56.725 Plugins[71880:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:08:56.827 Plugins[71880:80b] ~~~~~index page ready~~~~
+2014-03-03 18:09:00.492 Plugins[71880:80b] Resetting plugins due to page load.
+2014-03-03 18:09:00.520 Plugins[71880:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/camera.html
+2014-03-03 18:09:00.544 Plugins[71880:80b] camera init222222======
+2014-03-03 18:09:00.545 Plugins[71880:80b] camera init start...
+2014-03-03 18:09:02.216 Plugins[71880:80b] chooseing picture...
+2014-03-03 18:09:02.260 Plugins[71880:80b] THREAD WARNING: ['Camera'] took '43.179932' ms. Plugin should use a background thread.
+2014-03-03 18:09:02.296 Plugins[71880:80b] device resign...
+2014-03-03 18:09:03.834 Plugins[71880:80b] device active...
+2014-03-03 18:09:08.102 Plugins[71880:80b] chooseing picture...
+2014-03-03 18:09:11.585 Plugins[71880:80b] camera start...
+2014-03-03 18:09:11.585 Plugins[71880:80b] Camera.getPicture: source type 1 not available.
+2014-03-03 18:09:13.293 Plugins[71880:80b] THREAD WARNING: ['Camera'] took '1708.203125' ms. Plugin should use a background thread.
+2014-03-03 18:09:14.371 Plugins[71880:80b] Resetting plugins due to page load.
+2014-03-03 18:09:14.383 Plugins[71880:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:09:14.412 Plugins[71880:80b] ~~~~~index page ready~~~~
+2014-03-03 18:09:15.852 Plugins[71880:80b] Resetting plugins due to page load.
+2014-03-03 18:09:15.879 Plugins[71880:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/file.html
+2014-03-03 18:09:15.898 Plugins[71880:80b] file init======
+2014-03-03 18:09:15.899 Plugins[71880:80b] ======file api supported====
+2014-03-03 18:09:15.899 Plugins[71880:80b] =====requestFileSystem INIT=====
+2014-03-03 18:09:15.912 Plugins[71880:80b] THREAD WARNING: ['Notification'] took '11.285645' ms. Plugin should use a background thread.
+2014-03-03 18:10:05.005 Plugins[72097:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 18:10:05.016 Plugins[72097:80b] Unlimited access to network resources
+2014-03-03 18:10:05.155 Plugins[72097:80b] Resetting plugins due to page load.
+2014-03-03 18:10:05.377 Plugins[72097:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:10:05.519 Plugins[72097:80b] ~~~~~index page ready~~~~
+2014-03-03 18:10:36.265 Plugins[72097:80b] Resetting plugins due to page load.
+2014-03-03 18:10:36.282 Plugins[72097:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/file.html
+2014-03-03 18:10:36.327 Plugins[72097:80b] file init======
+2014-03-03 18:10:36.328 Plugins[72097:80b] ======file api supported====
+2014-03-03 18:10:36.328 Plugins[72097:80b] =====requestFileSystem INIT=====
+2014-03-03 18:10:36.329 Plugins[72097:80b] name:temporary
+2014-03-03 18:10:36.329 Plugins[72097:80b] root name:/
+2014-03-03 18:10:39.798 Plugins[72097:80b] button0|path:/
+2014-03-03 18:10:41.873 Plugins[72097:80b] ====get list...=====
+2014-03-03 18:10:41.874 Plugins[72097:80b] button1|path:/
+2014-03-03 18:10:44.985 Plugins[72097:80b] button2|path:/
+2014-03-03 18:10:48.966 Plugins[72097:80b] ====get list...=====
+2014-03-03 18:10:48.967 Plugins[72097:80b] button1|path:/
+2014-03-03 18:10:51.057 Plugins[72097:80b] button0|path:/
+2014-03-03 18:10:52.301 Plugins[72097:80b] ====get list...=====
+2014-03-03 18:10:52.302 Plugins[72097:80b] button1|path:/
+2014-03-03 18:10:56.382 Plugins[72097:80b] .....choosing files....
+2014-03-03 18:11:04.756 Plugins[72097:80b] Resetting plugins due to page load.
+2014-03-03 18:11:04.767 Plugins[72097:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/index.html
+2014-03-03 18:11:04.798 Plugins[72097:80b] ~~~~~index page ready~~~~
+2014-03-03 18:11:06.414 Plugins[72097:80b] Resetting plugins due to page load.
+2014-03-03 18:11:06.446 Plugins[72097:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8E81CD32-9196-46AD-80CA-B7F45B92A9AA/Plugins.app/www/upload.html
+2014-03-03 18:11:06.461 Plugins[72097:80b] deviceready
+2014-03-03 18:11:06.462 Plugins[72097:80b] init file options
+2014-03-03 18:11:09.942 Plugins[72097:80b] file attr:name |value: image.jpg
+2014-03-03 18:11:09.942 Plugins[72097:80b] file attr:lastModifiedDate |value: Mon Mar 03 2014 18:11:09 GMT+0800 (CST)
+2014-03-03 18:11:09.943 Plugins[72097:80b] file attr:size |value: 38448
+2014-03-03 18:11:09.944 Plugins[72097:80b] file attr:type |value: image/jpeg
+2014-03-03 18:11:09.944 Plugins[72097:80b] file attr:slice |value: function slice() {
+    [native code]
+}
+2014-03-03 18:11:11.277 Plugins[72097:80b] click upload btn!
+2014-03-03 18:11:11.293 Plugins[72097:80b] THREAD WARNING: ['Notification'] took '14.699951' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
