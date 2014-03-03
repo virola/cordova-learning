@@ -7,3 +7,110 @@ Terminating in response to SpringBoard's termination.
 2014-03-02 11:48:51.069 Sample[56319:80b] Unlimited access to network resources
 2014-03-02 11:48:51.228 Sample[56319:80b] Resetting plugins due to page load.
 2014-03-02 11:48:51.435 Sample[56319:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/CDF973AF-8E18-4B13-9E6E-A51E9CB17B03/Sample.app/www/index.html
+2014-03-03 15:58:19.649 Sample[68572:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 15:58:19.706 Sample[68572:80b] Unlimited access to network resources
+2014-03-03 15:58:19.896 Sample[68572:80b] CDVPlugin class Echo (pluginName: echo) does not exist.
+2014-03-03 15:58:19.897 Sample[68572:80b] [CDVTimer][echo] 0.537992ms
+2014-03-03 15:58:19.897 Sample[68572:80b] [CDVTimer][TotalPluginStartup] 1.105011ms
+2014-03-03 15:58:20.160 Sample[68572:80b] Resetting plugins due to page load.
+2014-03-03 15:58:20.293 Sample[68572:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 15:58:23.961 Sample[68572:80b] THREAD WARNING: ['SocialSharing'] took '80.505859' ms. Plugin should use a background thread.
+2014-03-03 15:58:23.984 Sample[68572:80b] Launch Services: Registering unknown app identifier com.apple.mobilemail failed
+2014-03-03 15:58:23.984 Sample[68572:80b] Launch Services: Unable to find app identifier com.apple.mobilemail
+2014-03-03 15:58:27.578 Sample[68572:80b] THREAD WARNING: ['SocialSharing'] took '10.585205' ms. Plugin should use a background thread.
+2014-03-03 15:58:38.550 Sample[68572:80b] THREAD WARNING: ['SocialSharing'] took '17.083252' ms. Plugin should use a background thread.
+AB: Could not compile statement for query (ABCCopyArrayOfAllInstancesOfClassInSourceMatchingProperties):
+SELECT ROWID, Name, ExternalIdentifier, Type, ConstraintsPath, ExternalModificationTag, ExternalSyncTag, AccountID, Enabled, SyncData, MeIdentifier, Capabilities FROM ABStore WHERE Enabled = ?;
+AB: Could not compile statement for query (ABCCopyArrayOfAllInstancesOfClassInSourceMatchingProperties):
+SELECT ROWID, Name, ExternalIdentifier, Type, ConstraintsPath, ExternalModificationTag, ExternalSyncTag, AccountID, Enabled, SyncData, MeIdentifier, Capabilities FROM ABStore WHERE Enabled = ?;
+2014-03-03 16:01:27.330 Sample[68707:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 16:01:27.342 Sample[68707:80b] Unlimited access to network resources
+2014-03-03 16:01:27.370 Sample[68707:80b] CDVPlugin class Echo (pluginName: echo) does not exist.
+2014-03-03 16:01:27.371 Sample[68707:80b] [CDVTimer][echo] 1.413047ms
+2014-03-03 16:01:27.372 Sample[68707:80b] [CDVTimer][TotalPluginStartup] 1.985967ms
+2014-03-03 16:01:27.399 Sample[68707:80b] Resetting plugins due to page load.
+2014-03-03 16:01:27.580 Sample[68707:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 16:01:30.828 Sample[68707:80b] THREAD WARNING: ['SocialSharing'] took '46.850342' ms. Plugin should use a background thread.
+2014-03-03 16:01:30.842 Sample[68707:80b] Launch Services: Registering unknown app identifier com.apple.mobilemail failed
+2014-03-03 16:01:30.843 Sample[68707:80b] Launch Services: Unable to find app identifier com.apple.mobilemail
+2014-03-03 16:01:34.723 Sample[68707:80b] THREAD WARNING: ['SocialSharing'] took '749.321045' ms. Plugin should use a background thread.
+2014-03-03 16:05:19.351 Sample[68845:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 16:05:19.362 Sample[68845:80b] Unlimited access to network resources
+2014-03-03 16:05:19.389 Sample[68845:80b] CDVPlugin class Echo (pluginName: echo) does not exist.
+2014-03-03 16:05:19.389 Sample[68845:80b] [CDVTimer][echo] 0.611007ms
+2014-03-03 16:05:19.390 Sample[68845:80b] [CDVTimer][TotalPluginStartup] 1.208961ms
+2014-03-03 16:05:19.652 Sample[68845:80b] Resetting plugins due to page load.
+2014-03-03 16:05:19.761 Sample[68845:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 16:05:40.591 Sample[68958:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 16:05:40.602 Sample[68958:80b] Unlimited access to network resources
+2014-03-03 16:05:40.629 Sample[68958:80b] CDVPlugin class Echo (pluginName: echo) does not exist.
+2014-03-03 16:05:40.630 Sample[68958:80b] [CDVTimer][echo] 0.611007ms
+2014-03-03 16:05:40.631 Sample[68958:80b] [CDVTimer][TotalPluginStartup] 1.699984ms
+2014-03-03 16:05:40.656 Sample[68958:80b] Resetting plugins due to page load.
+2014-03-03 16:05:40.863 Sample[68958:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 16:05:58.974 Sample[69073:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 16:05:58.990 Sample[69073:80b] Unlimited access to network resources
+2014-03-03 16:05:59.015 Sample[69073:80b] CDVPlugin class Echo (pluginName: echo) does not exist.
+2014-03-03 16:05:59.016 Sample[69073:80b] [CDVTimer][echo] 0.683010ms
+2014-03-03 16:05:59.017 Sample[69073:80b] [CDVTimer][TotalPluginStartup] 1.358986ms
+2014-03-03 16:05:59.235 Sample[69073:80b] Resetting plugins due to page load.
+2014-03-03 16:05:59.299 Sample[69073:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 16:06:46.589 Sample[69190:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 16:06:46.615 Sample[69190:80b] Unlimited access to network resources
+2014-03-03 16:06:46.645 Sample[69190:80b] CDVPlugin class Echo (pluginName: echo) does not exist.
+2014-03-03 16:06:46.646 Sample[69190:80b] [CDVTimer][echo] 0.777960ms
+2014-03-03 16:06:46.646 Sample[69190:80b] [CDVTimer][TotalPluginStartup] 1.441002ms
+2014-03-03 16:06:46.909 Sample[69190:80b] Resetting plugins due to page load.
+2014-03-03 16:06:47.004 Sample[69190:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 16:06:55.632 Sample[69190:80b] THREAD WARNING: ['SocialSharing'] took '667.860107' ms. Plugin should use a background thread.
+2014-03-03 16:06:55.651 Sample[69190:80b] Launch Services: Registering unknown app identifier com.apple.mobilemail failed
+2014-03-03 16:06:55.651 Sample[69190:80b] Launch Services: Unable to find app identifier com.apple.mobilemail
+2014-03-03 16:06:59.103 Sample[69190:80b] share ok
+2014-03-03 16:07:00.897 Sample[69190:80b] THREAD WARNING: ['SocialSharing'] took '1793.161133' ms. Plugin should use a background thread.
+2014-03-03 16:07:05.158 Sample[69190:80b] share ok
+2014-03-03 16:07:07.220 Sample[69190:80b] THREAD WARNING: ['SocialSharing'] took '2061.585938' ms. Plugin should use a background thread.
+2014-03-03 16:07:09.795 Sample[69190:80b] THREAD WARNING: ['SocialSharing'] took '1699.444092' ms. Plugin should use a background thread.
+2014-03-03 16:07:12.379 Sample[69190:80b] THREAD WARNING: ['SocialSharing'] took '1641.278809' ms. Plugin should use a background thread.
+2014-03-03 16:07:13.806 Sample[69190:80b] THREAD WARNING: ['SocialSharing'] took '270.368164' ms. Plugin should use a background thread.
+2014-03-03 17:15:00.722 Sample[70188:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 17:15:00.792 Sample[70188:80b] Unlimited access to network resources
+2014-03-03 17:15:01.042 Sample[70188:80b] [CDVTimer][echo] 0.154018ms
+2014-03-03 17:15:01.043 Sample[70188:80b] [CDVTimer][TotalPluginStartup] 0.759006ms
+2014-03-03 17:15:01.256 Sample[70188:80b] Resetting plugins due to page load.
+2014-03-03 17:15:01.436 Sample[70188:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 17:15:48.515 Sample[70188:80b] THREAD WARNING: ['Notification'] took '22.578125' ms. Plugin should use a background thread.
+2014-03-03 17:18:18.745 Sample[70323:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 17:18:18.756 Sample[70323:80b] Unlimited access to network resources
+2014-03-03 17:18:18.806 Sample[70323:80b] [CDVTimer][echo] 0.095963ms
+2014-03-03 17:18:18.811 Sample[70323:80b] [CDVTimer][TotalPluginStartup] 4.630983ms
+2014-03-03 17:18:19.116 Sample[70323:80b] Resetting plugins due to page load.
+2014-03-03 17:18:19.186 Sample[70323:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 17:18:20.924 Sample[70323:80b] THREAD WARNING: ['Notification'] took '25.589844' ms. Plugin should use a background thread.
+2014-03-03 17:18:26.355 Sample[70323:80b] THREAD WARNING: ['Notification'] took '85.238770' ms. Plugin should use a background thread.
+2014-03-03 17:18:33.224 Sample[70323:80b] THREAD WARNING: ['Notification'] took '89.115967' ms. Plugin should use a background thread.
+2014-03-03 17:26:36.697 Sample[70644:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 17:26:36.707 Sample[70644:80b] Unlimited access to network resources
+2014-03-03 17:26:36.735 Sample[70644:80b] [CDVTimer][echo] 0.037014ms
+2014-03-03 17:26:36.736 Sample[70644:80b] [CDVTimer][TotalPluginStartup] 0.508964ms
+2014-03-03 17:26:36.757 Sample[70644:80b] Resetting plugins due to page load.
+2014-03-03 17:26:36.884 Sample[70644:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 17:26:38.286 Sample[70644:80b] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> Attempt to mutate immutable object with appendString:
+2014-03-03 17:26:40.318 Sample[70644:80b] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> Attempt to mutate immutable object with appendString:
+2014-03-03 17:30:51.469 Sample[70864:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 17:30:51.486 Sample[70864:80b] Unlimited access to network resources
+2014-03-03 17:30:51.581 Sample[70864:80b] [CDVTimer][echo] 0.119030ms
+2014-03-03 17:30:51.587 Sample[70864:80b] [CDVTimer][TotalPluginStartup] 5.511999ms
+2014-03-03 17:30:51.841 Sample[70864:80b] Resetting plugins due to page load.
+2014-03-03 17:30:51.941 Sample[70864:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 17:30:56.614 Sample[70864:80b] THREAD WARNING: ['Notification'] took '32.887207' ms. Plugin should use a background thread.
+2014-03-03 17:31:01.846 Sample[70864:80b] THREAD WARNING: ['Notification'] took '13.379150' ms. Plugin should use a background thread.
+2014-03-03 17:38:36.974 Sample[71046:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-03 17:38:36.987 Sample[71046:80b] Unlimited access to network resources
+2014-03-03 17:38:37.011 Sample[71046:80b] [CDVTimer][echo] 0.064969ms
+2014-03-03 17:38:37.016 Sample[71046:80b] [CDVTimer][TotalPluginStartup] 5.329967ms
+2014-03-03 17:38:37.279 Sample[71046:80b] Resetting plugins due to page load.
+2014-03-03 17:38:37.418 Sample[71046:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-03 17:38:39.733 Sample[71046:80b] THREAD WARNING: ['Notification'] took '19.298096' ms. Plugin should use a background thread.
+2014-03-03 17:38:48.203 Sample[71046:80b] THREAD WARNING: ['Notification'] took '75.543945' ms. Plugin should use a background thread.
+2014-03-03 17:38:56.759 Sample[71046:80b] THREAD WARNING: ['Notification'] took '73.530029' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
