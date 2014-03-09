@@ -37,7 +37,8 @@ body {
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size: 1.6em;
+    line-height: 2em;
     height:100%;
     margin:0px;
     padding:0px;
@@ -55,14 +56,14 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+        padding: 75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin: -20px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 1.6em;
     font-weight: normal;
     margin:0px;
     overflow:visible;
@@ -76,6 +77,15 @@ button {
     border-radius: 2px;
     color: #39C;
     background: #fff;
+}
+
+
+.bling {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
 }
 
 @keyframes fade {

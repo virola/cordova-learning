@@ -1,0 +1,35 @@
+/*@import url(x480.css);*/
+@import url(iphone5.css);
+@import url(android2_3_3.css);
+
+h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #2e3132;
+}
+
+.dark-bg {
+    background-color: #2e3132;
+}
+
+.searching {
+    text-align: center;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+.wrap::after {
+    visibility: hidden;
+    content: ' ';
+    clear: both;
+}
+
+

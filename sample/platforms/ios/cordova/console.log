@@ -114,3 +114,41 @@ SELECT ROWID, Name, ExternalIdentifier, Type, ConstraintsPath, ExternalModificat
 2014-03-03 17:38:48.203 Sample[71046:80b] THREAD WARNING: ['Notification'] took '75.543945' ms. Plugin should use a background thread.
 2014-03-03 17:38:56.759 Sample[71046:80b] THREAD WARNING: ['Notification'] took '73.530029' ms. Plugin should use a background thread.
 Terminating in response to SpringBoard's termination.
+2014-03-07 18:07:28.967 Sample[88122:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-07 18:07:29.078 Sample[88122:80b] Unlimited access to network resources
+2014-03-07 18:07:29.742 Sample[88122:80b] [CDVTimer][echo] 0.411987ms
+2014-03-07 18:07:29.743 Sample[88122:80b] [CDVTimer][TotalPluginStartup] 1.085997ms
+2014-03-07 18:07:29.972 Sample[88122:80b] Resetting plugins due to page load.
+2014-03-07 18:07:30.085 Sample[88122:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-07 18:09:25.838 Sample[88122:80b] Resetting plugins due to page load.
+2014-03-07 18:09:25.880 Sample[88122:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/shake.html
+2014-03-07 19:07:22.955 Sample[88622:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-07 19:07:23.063 Sample[88622:80b] Unlimited access to network resources
+2014-03-07 19:07:23.261 Sample[88622:80b] [CDVTimer][echo] 0.040948ms
+2014-03-07 19:07:23.261 Sample[88622:80b] [CDVTimer][TotalPluginStartup] 0.573993ms
+2014-03-07 19:07:23.446 Sample[88622:80b] Resetting plugins due to page load.
+2014-03-07 19:07:23.545 Sample[88622:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-07 19:07:25.861 Sample[88622:80b] Resetting plugins due to page load.
+2014-03-07 19:07:25.888 Sample[88622:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/shake.html
+2014-03-09 18:15:56.045 Sample[95290:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-09 18:15:56.082 Sample[95290:80b] Unlimited access to network resources
+2014-03-09 18:15:56.304 Sample[95290:80b] [CDVTimer][splashscreen] 65.759003ms
+2014-03-09 18:15:56.304 Sample[95290:80b] [CDVTimer][echo] 0.056982ms
+2014-03-09 18:15:56.305 Sample[95290:80b] [CDVTimer][TotalPluginStartup] 66.670001ms
+2014-03-09 18:15:56.482 Sample[95290:80b] Resetting plugins due to page load.
+2014-03-09 18:15:56.688 Sample[95290:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-03-09 18:17:41.397 Sample[95455:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-09 18:17:41.408 Sample[95455:80b] Unlimited access to network resources
+2014-03-09 18:17:41.443 Sample[95455:80b] [CDVTimer][splashscreen] 10.549963ms
+2014-03-09 18:17:41.444 Sample[95455:80b] [CDVTimer][echo] 0.050008ms
+2014-03-09 18:17:41.444 Sample[95455:80b] [CDVTimer][TotalPluginStartup] 11.659026ms
+2014-03-09 18:17:41.482 Sample[95455:80b] Resetting plugins due to page load.
+2014-03-09 18:17:41.763 Sample[95455:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-09 18:21:24.322 Sample[95652:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-09 18:21:24.335 Sample[95652:80b] Unlimited access to network resources
+2014-03-09 18:21:24.384 Sample[95652:80b] [CDVTimer][splashscreen] 14.947057ms
+2014-03-09 18:21:24.384 Sample[95652:80b] [CDVTimer][echo] 0.059009ms
+2014-03-09 18:21:24.385 Sample[95652:80b] [CDVTimer][TotalPluginStartup] 16.045034ms
+2014-03-09 18:21:24.641 Sample[95652:80b] Resetting plugins due to page load.
+2014-03-09 18:21:24.809 Sample[95652:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html

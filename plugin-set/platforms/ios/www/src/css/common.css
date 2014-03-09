@@ -5,7 +5,8 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color: #E4E4E4;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 1.4em;
+    line-height: 1.8em;
     margin: 0px;
     padding: 0px;
 }
@@ -34,7 +35,7 @@ ul, li, ol, dl, dt, dd {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: normal;
     margin: 0px;
     overflow:visible;
