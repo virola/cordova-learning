@@ -1,6 +1,6 @@
 
 /* Desire + Galaxy S2 (portrait) ----------- */
-/*@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : portrait) {*/
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : portrait) {
     .bg-img {
         left: 130px;
         background-size: 90% 90%;
@@ -39,7 +39,7 @@
         width: 20px;
         background-size: 100% 100%;
     }
-/*}*/
+}
 
  
 /* Desire + Galaxy S2 (landscape) ----------- */

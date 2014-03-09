@@ -1,0 +1,93 @@
+
+h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #2e3132;
+}
+
+.dark-bg {
+    background-color: #2e3132;
+}
+
+.searching {
+    text-align: center;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+.wrap::after {
+    visibility: hidden;
+    content: ' ';
+    clear: both;
+}
+
+ 
+.bg-img {
+    position: absolute;
+    top: 100px;
+    width: 210px;
+    height: 238px;
+    background: url(../img/shake-hand.png) no-repeat center top;
+    background-size: 80% 80%;
+}
+
+
+.item {
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    background: #393b3c;
+    border: 1px solid #181819;
+    color: #b0b1b1;
+}
+
+.wrap {
+    border: 1px solid #4d4f50;
+    padding: 13px;
+}
+
+.item .box {
+    float: left;
+    box-sizing: border-box;
+}
+
+.item img {
+    display: block;
+    border: 0;
+    border-radius: 5px;
+}
+
+.item .info {
+    padding-left: 15px;
+}
+
+.item .info h3 {
+    margin: 0;
+    font-weight: normal;
+    /*font-size: 14px;*/
+}
+
+.item .info p {
+    margin-top: 8px;
+}
+
+.icon-male {
+    display: inline-block;
+    margin-left: 5px;
+    background: url(../img/icon-male.png) no-repeat bottom;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 0;
+    background: url(../img/arrow-right.png) no-repeat;
+}
