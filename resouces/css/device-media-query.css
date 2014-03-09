@@ -1,0 +1,81 @@
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+     
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* old Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+}
+ 
+/* old Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+ 
+/* old Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPhone 5 or iPod Touch 5th generation ------- */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
+
+/* Android Tablet (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) {
+    /* Styles */
+}
+ 
+/* Android Tablet (landscape) ----------- */
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : landscape) {
+    /* Styles */
+}
+ 
+/* Android Tablet (portrait) ----------- */
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
+    /* Styles */
+}
+ 
+/* Desire + Galaxy S2 (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
+    /* Styles */
+}
+ 
+/* Desire + Galaxy S2 (landscape) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : landscape) {
+    /* Styles */
+}
+ 
+/* Desire + Galaxy S2 (portrait) ----------- */
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : portrait) {
+    /* Styles */
+}
+
