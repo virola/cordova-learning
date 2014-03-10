@@ -14,4 +14,5 @@
         <param name="ios-package" value="Echo" />
         <param name="onload" value="true" />
     </feature>
+    <preference name="Orientation" value="landscape" />
 </widget>

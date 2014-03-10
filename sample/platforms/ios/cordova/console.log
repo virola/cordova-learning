@@ -246,3 +246,16 @@ Terminating in response to SpringBoard's termination.
 2014-03-10 11:57:33.828 Sample[99603:80b] share ok
 2014-03-10 11:57:35.315 Sample[99603:80b] THREAD WARNING: ['SocialSharing'] took '1486.462158' ms. Plugin should use a background thread.
 Terminating in response to SpringBoard's termination.
+2014-03-10 22:45:22.452 Sample[7163:80b] Multi-tasking -> Device: YES, App: YES
+2014-03-10 22:45:22.470 Sample[7163:80b] Unlimited access to network resources
+2014-03-10 22:45:22.507 Sample[7163:80b] [CDVTimer][splashscreen] 11.301994ms
+2014-03-10 22:45:22.508 Sample[7163:80b] [CDVTimer][echo] 0.051975ms
+2014-03-10 22:45:22.508 Sample[7163:80b] [CDVTimer][TotalPluginStartup] 12.853026ms
+2014-03-10 22:45:22.547 Sample[7163:80b] Resetting plugins due to page load.
+2014-03-10 22:45:23.090 Sample[7163:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/shake.html
+2014-03-10 22:45:23.149 Sample[7163:80b] shake init ready.....
+2014-03-10 22:45:41.719 Sample[7163:80b] Resetting plugins due to page load.
+2014-03-10 22:45:41.734 Sample[7163:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/index.html
+2014-03-10 22:45:43.004 Sample[7163:80b] Resetting plugins due to page load.
+2014-03-10 22:45:43.027 Sample[7163:80b] Finished load of: file:///Users/Virola/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/A388C952-3315-48EC-9776-5FD2D6FD87B7/Sample.app/www/shake.html
+2014-03-10 22:45:43.037 Sample[7163:80b] shake init ready.....

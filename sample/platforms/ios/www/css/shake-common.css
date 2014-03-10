@@ -83,6 +83,8 @@ h2 {
 }
 
 .item img {
+    max-width: 80px;
+    max-height: 80px;
     display: block;
     border: 0;
     border-radius: 5px;

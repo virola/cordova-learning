@@ -63,6 +63,11 @@
 @media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait) {
     /* Styles */
 }
+
+/* Android 4.0 Large Screen */
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) and (orientation : portrait) {
+
+}
  
 /* Desire + Galaxy S2 (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 480px) and (max-device-width : 800px) {

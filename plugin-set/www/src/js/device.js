@@ -10,7 +10,7 @@ var app = (function () {
             var result = ''
                 + 'cordova: ' + device.cordova + '<br>'
                 + 'model: ' + device.model + '<br>'
-                + 'name: ' + device.name + '<br>'
+                // + 'name: ' + device.name + '<br>'
                 + 'platform: ' + device.platform + '<br>'
                 + 'uuid: ' + device.uuid + '<br>'
                 + 'version: ' + device.version;

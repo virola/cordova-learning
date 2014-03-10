@@ -1,0 +1,127 @@
+@import url(iphone5.css);
+@import url(android_2_3.css);
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #E4E4E4;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.app {
+    margin: 20px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position: left center;
+        padding: 75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin: -90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+
+h1 {
+    font-weight: normal;
+    margin: 0px;
+    overflow:visible;
+    padding: 0px;
+    text-align:center;
+}
+
+
+.loading {
+    text-align: center;
+    color: #666;
+    font-size: 1.5em;
+}
+
+.load-more {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #CDE;
+    color: #63B1FD;
+    text-align: center;
+    background: #fff;
+}
+
+.list {
+    background: rgba(255, 255, 255, 0.6);
+    clear: both;
+}
+
+.list li {
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    overflow: hidden;
+}
+
+.list li a {
+    padding: 10px 20px;
+    display: block;
+    height: 100%;
+    text-align: left;
+    color: #0079FF;
+    overflow: hidden;
+}
+
+.list li a > div {
+    float: left;
+    box-sizing: border-box;
+}
+.list li a > div.info {
+    width: 70%;
+    overflow: hidden;
+    border-right: 1px solid #abc;
+    padding-right: 10px;
+}
+.list li a h4 {
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list li a > div.info p {
+    color: #666;
+    overflow: hidden;
+}
+
+.list li a .info .level {
+    color: #FF560B;
+}
+
+.list li a > div.rate {
+    width: 30%;
+    padding-left: 10px;
+    text-align: center;
+    overflow: hidden;
+    color: #000;
+}
+
+.list li a .rate i {
+    display: block;
+    color: #666;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.list li a .rate p {
+    font-size: 2em;
+    line-height: 2;
+    color: #ff2900;
+}

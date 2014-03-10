@@ -1,10 +1,660 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="zh_CN">
 <head>
-<meta charset="utf-8" />
-<title>Cordova 开发篇</title>
+    <meta charset="utf-8">
+    <title>Cordova·开发篇</title>
+    <meta name="description" content="Cordova开发相关资料">
+    <meta name="author" content="Virola">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <style type="text/css">
+    .text-yellow {
+        color: #ffc21b;
+    }
+    </style>
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+        if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = 'css/print/pdf.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        }
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
+
 <body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <h1>Cordova</h1>
+                <h3>开发实战</h3>
+
+                <p>
+                    <small>by <a href="mailto:virola.zhu@gmail.com">zhuyuwei</a> / <a target="_blank" href="http://weibo.com/wendy0530">@Virola</a></small>
+                </p>
+            </section>
+
+            <section>
+                <h2>基本开发流程</h2>
+
+                <ol>
+                    <li>cordova create [...]</li>
+                    <li>cordova emulate [platform]/cordova run [platform] [--device]</li>
+                    <li>cordova build [platform]</li>
+                </ol>
+
+            </section>
+
+            <section data-markdown>
+##iOS vs Android
+
+iOS使用iOS模拟器
     
+    cordova emulate ios
+
+Android使用真机调试
+
+    cordova run android --device
+
+            </section>
+
+            <section>
+                <section>
+                    <h2>文档</h2>
+                </section>
+
+                <section>
+                    <ul>
+                        <li>Guides</li>
+                        <li>API Reference</li>
+                    </ul>
+                    <p></p>
+                    <p>
+                        Latest@3.4.0 / diffrent from 3.3.0
+                    </p>
+                    <p>
+                        <a target="_blank" href="http://cordova.apache.org/docs/en/3.4.0/">Documentation</a> | <a target="_blank" href="http://cordova.apache.org/docs/zh/edge/">中文文档</a>
+                    </p>
+                </section>
+
+                <section data-markdown>
+## 事件监听
+
+* `deviceready`
+* `pause`
+* `resume`
+* `backbutton`
+* `menubutton`
+* `searchbutton`
+* `startcallbutton`
+* `endcallbutton`
+* `volumedownbutton`
+* `volumeupbutton`
+                </section>
+
+                <section data-markdown>
+##官方实现
+
+* `Accelerometer`
+* `Camera`
+* `Capture`
+* `Compass`
+* `Connection`
+* `Contacts`
+* `Device`
+* `Events`
+
+
+* `File`
+* `Geolocation`
+* `Globalization`
+* `InAppBrowser`
+* `Media`
+* `Notification`
+* `Splashscreen`
+* `Storage`
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h2>插件机制</h2>
+                    <p>
+                        更好地支持扩展
+                    </p>
+                </section>
+                
+                <section>
+                    <h2>安装/移除</h2>
+                    <p>cordova plugin add</p>
+                    <pre><code data-trim contenteditable>
+# Offically
+cordova plugin add [org.apache.cordova.console]
+
+# From git
+cordova plugin add [https://github.com/apache/cordova-plugin-console.git]
+
+# From local path
+cordova plugin add [tmpdir/plugin/console]
+                    </code></pre>
+                    <p>cordova plugin remove</p>
+                    <pre><code data-trim contenteditable>
+cordova plugin remove org.apache.cordova.console
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h3>实践tips</h3>
+                    <ul>
+                        <li><code>cordova plugin</code> instead of <a target="_blank" href="">plugman</a></li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h2>项目结构</h2>
+                </section>
+
+                <section>
+                    <p>[prject-dir]</p>
+                    <ul>
+                        <li>hooks/</li>
+                        <li>merges/</li>
+                        <li class="fragment highlight-blue">platforms/</li>
+                        <li class="fragment highlight-red">plugins/</li>
+                        <li class="fragment highlight-red">www/</li>
+                        <li class="fragment highlight-red">config.xml/</li>
+                    </ul>
+
+                    <aside class="notes">
+                        `platforms`目录是不同平台的cordova实现，一般通过命令行操作，不需要手动修改里面的文件；
+                        `plugins`目录用于存放插件，一般通过命令行操作，不需要手动修改；
+                        `www`目录用于存放html网页，是我们的主要开发目录；
+                    </aside>
+                </section>
+            </section>
+            
+            <section>
+                <h2>插件介绍</h2>
+                <p>API references</p>
+            </section>
+
+            <section>
+
+                <section data-markdown>
+    ###console
+
+    - 让js中的`console.log()`输出日志可见【装机必备】
+
+    - 官方文档中并没有提到，但在调试过程中非常重要
+
+                </section>
+
+                <section>
+                    <h3>splashscreen 启动画面</h3>
+                    <ul>
+                        <li>全局对象： splashscreen</li>
+                        <li>方法：
+                            <ul>
+                                <li>(void) show()</li>
+                                <li>(void) hide()</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <pre><code contenteditable>
+    splashscreen.show();
+
+    setTimeout(function () {
+        splashscreen.hide();    
+    }, 3000);
+                    </code></pre>
+
+                    <div class="fragment">
+                        IOS中<code>config.xml</code>：
+                        <pre><code><preference name="AutoHideSplashScreen" value="false" /></code></pre>
+                    </div>
+
+                    <aside class="notes">
+                        <p>cordova add org.apache.cordova.splashscreen</p>
+                        <p><a href="https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index.md">文档</a></p>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>dialogs &amp; vibration</h2>
+
+                    <ul>
+                        <li>dialogs: 调用原生的通知功能【<a href="https://github.com/apache/cordova-plugin-dialogs/blob/master/doc/index.md">文档</a>】
+                        <li>vibration: 调用震动【<a href="https://github.com/apache/cordova-plugin-vibration/blob/master/doc/index.md">文档</a>】
+                    </ul>
+
+                    <pre><code>
+    navigator.notification.alert(msg)
+    navigator.notification.confirm
+    navigator.notification.prompt
+    navigator.notification.beep(times)
+
+    // from vibration api 
+    navigator.notification.vibrate(number duration[ms])           
+                    </code></pre>
+                    <ul>
+                        
+                    </ul> 
+
+                    <p class="fragment">Ps. iOS下会忽略通知次数/震动时长的参数</p>
+
+                </section>
+
+
+                <section>
+                    <h2>network-information</h2>
+                    <p>判断/监控网络状态【<a href="https://github.com/apache/cordova-plugin-network-information/blob/master/doc/index.md">文档</a>】</p>
+                    <ul>
+                        <li>
+                            <span>新增window事件：<code>online</code>/<code>offline</code></span>
+                        </li>
+                        <li>应用场景： 多媒体在线播放/文件下载</li>
+                    </ul>
+
+                    <pre><code data-trim>
+    function getNetworkInfo() {
+    var networkState = navigator.connection.type;
+
+    var states = {};
+    states[Connection.UNKNOWN]  = 'Unknown connection';
+    states[Connection.ETHERNET] = 'Ethernet connection';
+    states[Connection.WIFI]     = 'WiFi connection';
+    states[Connection.CELL_2G]  = 'Cell 2G connection';
+    states[Connection.CELL_3G]  = 'Cell 3G connection';
+    states[Connection.CELL_4G]  = 'Cell 4G connection';
+
+    // iOS下无法判断移动网络的类型，移动数据传输时统一表示为Connection.CELL
+    states[Connection.CELL]     = 'Cell generic connection';
+    states[Connection.NONE]     = 'No network connection';
+
+    return states[networkState];
+    }
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>inappbrowser</h2>
+
+                    <p>app内置浏览器功能【<a href="">文档</a>】</p>
+                    
+                    <pre><code>
+    // window.open(url, target, options);
+    var ref = window.open('http://apache.org', '_blank', 'location=yes');
+                    </code></pre>
+
+                    <p><code></code></p>
+                    <ul>
+                        <li>{string}target: _self/_blank/_system</li>
+                        <li>
+                            <p>{string}options: 以逗号分隔的属性组，不允许空格.</p>
+                            <p>eg. 
+<pre><code>'location=yes,closebuttoncaption=close,toolbarposition=top'</code></pre>
+</p>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <section>
+                    <h2>battery-status</h2>
+                    <p>监控电池状态【<a href="https://github.com/apache/cordova-plugin-battery-status/blob/master/doc/index.md">文档</a>】</p>
+                    <div>
+                        <br>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>实现w3c关于battery status的<a href="http://www.w3.org/TR/2011/WD-battery-status-20110915/">草案</a></span>
+                        </li>
+                        <li class="fragment">
+                            <span>新增window事件</span>
+                            <ul>
+                                <li>batterystatus</li>
+                                <li>batterycritical</li>
+                                <li>batterylow</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>device</h2>
+                    <p>显示设备信息</p>
+                    <ul>
+                        <li>device.cordova</li>
+                        <li>device.model</li>
+                        <li><del>device.name</del></li>
+                        <li>device.platform</li>
+                        <li>device.uuid</li>
+                        <li>device.version</li> 
+                    </ul>
+                </section>
+
+            </section>
+
+            <section>
+                <section>
+                    <h2>camera</h2>
+                    <p>拍照&amp;从相册选取照片【<a href="https://github.com/apache/cordova-plugin-camera/blob/master/doc/index.md">文档</a>】</p>
+                    <ul>
+                        <li>通用方法： <code>navigator.camera.getPicture</code></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>camera</h2>
+                    
+                    <pre><code>
+    navigator.camera.getPicture(onSuccess, onFail, { 
+        quality: 50,
+
+        // DATA_URI / FILE_URI
+        destinationType: Camera.DestinationType.FILE_URI,
+
+        // PHOTOLIBRARY / CAMERA
+        sourceType: Camera.PictureSourceType.PHOTOLIBRARY 
+    });
+
+    function onSuccess(imageURI) {
+        var image = document.getElementById('myImage');
+        image.src = imageURI;
+    }
+
+    function onFail(message) {
+        alert('Failed because: ' + message);
+    }
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>camera</h2>
+                    <p>注意内存问题</p>
+
+                    <blockquote>
+                        To avoid common memory problems, set Camera.destinationType to FILE_URI rather than DATA_URL.
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>camera</h2>
+                    <p>仅iOS支持的方法<code>navigator.camera.cleanup</code></p>
+                    <pre><code>
+    navigator.camera.cleanup(onSuccess, onFail);
+
+    function onSuccess() {
+        console.log("Camera cleanup success.")
+    }
+
+    function onFail(message) {
+        alert('Failed because: ' + message);
+    }
+                    </code></pre>
+                </section>
+
+            </section>
+
+            <section>
+
+                <section>
+                    <h2>geolocation</h2>
+                    <p>定位功能</p>
+
+                    <p>对象：navigator.geolocation</p>
+
+                    <pre><code>
+    - (void)getCurrentPosition(successCb, failCb, options)
+    - (string)watchPosition(successCb, failCb, options)
+    - (void)clearWatch(watchID)                       
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>device-motion</h2>
+                    <p>加速度计【<a href="https://github.com/apache/cordova-plugin-device-motion/blob/master/doc/index.md">文档</a>】</p>
+                    <p class="fragment">eg: 摇一摇、赛车</p>
+
+                    <pre><code>
+    navigator.accelerometer.getCurrentAcceleration
+    navigator.accelerometer.watchAcceleration
+    navigator.accelerometer.clearWatch                        
+                    </code></pre>
+
+                    <p class="fragment"><a href=""><img src="" alt="下载"></a></p>
+                </section>
+
+                <section>
+                    <h2>device-orientation</h2>
+                    <p>罗盘功能</p>
+
+                    <pre><code>
+    navigator.compass.getCurrentHeading
+    navigator.compass.watchHeading
+    navigator.compass.clearWatch                        
+                    </code></pre>
+                </section>
+
+            </section>
+            
+
+            <section>
+                <section data-markdown>
+                    ##如何开发插件
+                    
+                    * 需要针对不同平台开发继承自 `Cordova Plugin` 的类
+                    * 需要开发一个执行`cordova.exec`的JS
+
+                </section>
+
+                <section>
+                    <h2>插件目录结构</h2>
+                    <ul>
+                        <li><code>plugin.xml</code></li>
+                        <li><span>src/</span>
+                            <ul>
+                                <li><code>ios/</code></li>
+                                <li><code>android/</code></li>
+                                <li><code>...</code></li>
+                            </ul>
+                        </li>
+                        <li><code>www/</code>
+                            <ul>
+                                <li><code>Plugin.js</code></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <p></p>
+                </section>
+
+                <section>
+                    <h2>使用自定义插件</h2>
+                    <p>1) 命令行运行：</p>
+                    <pre><code>
+cordova plugin add [git-url|path]
+cordova prepare
+                        
+                    </code></pre>
+
+                    <p>2) 以IOS为例，在config.xml中加入:</p>
+                    <pre><code>
+<feature name="SocialSharing">
+  <param name="ios-package" value="SocialSharing" />
+</feature>              
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>例：一个完整的Echo插件</h2>
+                    <p><a target="_blank" href="https://github.com/virola/cordova-learning/tree/master/plugin-custom/echo">https://github.com/virola/cordova-learning/tree/master/plugin-custom/echo</a></p>
+                </section>
+                
+            </section>
+
+            <section>
+                <section>
+                    <h2>开发中遇到的问题总结Part 1</h2>
+                    <ul>
+                        <li>数据交互问题
+                            <ul class="fragment text-yellow">
+                                <li><code>Ajax</code>，没有跨域问题!</li>
+                            </ul>
+                        </li>
+                        <li>模拟器与真机的区别
+                            <ul class="fragment text-yellow">
+                                <li>拍照、网络状态、安装其他app</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Android 2.x版本中Geolocation插件无法定位</span>
+                            <ul class="fragment text-yellow">
+                                <li>自定义插件使用其他地图sdk完成定位，如<a target="_blank" href="http://www.baidu.com/#wd=phonegap%20%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE&ie=utf-8&tn=baiduhome_pg&f=3&bs=zen%20coding&rsv_bp=1&rsv_spt=1&rsv_sug3=24&rsv_sug4=210&rsv_sug2=0&inputT=3&rsv_sug1=13&oq=phonegap%20baidu&rsp=0&rsv_sug=10">百度地图</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>开发中遇到的问题总结Part 2</h2>
+                    <ul>
+                        <li>
+                            网页样式如何适配不同分辨率的手机和系统？
+                            <ul class="fragment text-yellow">
+                                <li>css media query / seperate css - 各种调试</li>
+                                <li>整理的<a target="_blank" href="https://github.com/virola/cordova-learning/blob/master/resouces/css/device-media-query.css">device media query参考</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            官方提供的插件太少，无法满足需求
+                            <ul class="fragment text-yellow">
+                                <li>Google之，Github之，如social share</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>开发中遇到的问题总结Part 3</h2>
+                    <ul>
+                        <li>加速计的变化值和频率
+                            <ul class="fragment text-yellow">
+                                <li>我使用的是频率 500 ms, 变化值 5，灵敏度一般</li>
+                            </ul>
+                        </li>
+                        <li>iOS7中所有的应用都是全屏运行的，此时状态栏层叠在应用界面上， 导致头部的内容或者界面被覆盖
+                            <ul class="fragment text-yellow">
+                                <li>解决方法：（注意背景颜色的设定）
+                                    <pre><code>
+    if (parseInt(device.version) === 7) {
+          document.body.style.marginTop = "20px";
+    }
+                                    </code></pre>
+                                </li>
+                            </ul>
+                        </li>
+
+                        
+                    </ul>
+                </section>
+
+            </section>
+
+            
+
+            <section>
+                <section>
+                    <h2>开发案例试用</h2>
+                    <ul>
+                        <li><a href="">UserCenter</a></li>
+                        <li><a href="">BaiduCaifu</a></li>
+                        <li><a href="">官方插件功能试用集</a></li>
+                        <li><a href="">摇一摇</a></li>
+                    </ul>
+                    <p class="fragment">所有代码都放在github
+                        <a target="_blank" href="https://github.com/virola/cordova-learning/">Cordova Learning</a>
+                    </p>
+                </section>
+                <section>
+                    <h2>线上案例</h2>
+                    <p>
+                        <a target="_blank" href="http://phonegap.com/app/">http://phonegap.com/app/</a>
+                    </p>
+                    <p>
+                        2000+ phonegap app
+                    </p>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>end</h1>
+                    <p>
+                        Thanks!
+                    </p>
+                </section>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+
 </body>
 </html>

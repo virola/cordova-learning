@@ -1,0 +1,57 @@
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : portrait) {
+    body {
+        font-size: 1.4em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .load-more {
+        font-size: 3em;
+        line-height: 3.5;
+    }
+
+    .list li a div.info {
+        width: 60%;
+    }
+
+    .list li a div.rate {
+        width: 28%;
+    }
+
+    .list li a h4 {
+        font-size: 1.4em;
+    }
+
+    .list li a .rate i {
+        font-size: .9em;
+    }
+}
+
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) and (orientation : portrait) {
+    body {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    .load-more {
+        font-size: 3em;
+        line-height: 3.5;
+    }
+
+    .list li a h4 {
+        font-size: 1.2em;
+    }
+
+    .list li a .rate i {
+        font-size: .9em;
+        overflow: hidden;
+    }
+}

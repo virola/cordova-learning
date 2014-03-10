@@ -1,0 +1,23 @@
+/* iPhone 5 or iPod Touch 5th generation ------- */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .load-more {
+        font-size: 1.5em;
+        line-height: 1.5;
+    }
+
+    .list li a h4 {
+        font-size: 14px;
+    }
+
+    .list li a .rate i {
+        font-size: 10px;
+    }
+}

@@ -24,15 +24,13 @@
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/shake.html \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/android2_3_3.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/android_4.css \
-/Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/device \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/index.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/iphone5.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/shake-common.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/shake.css \
-/Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/device/iphone5.css \
-/Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/css/device/x480.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/img/arrow-right.png \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/img/avatar \
+/Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/img/back.png \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/img/icon-male.png \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/img/shake-hand.png \
 /Users/Virola/projects/toys/cordova/cordova-learning/sample/platforms/android/assets/www/img/avatar/2014-03-09 171736.png \

@@ -62,7 +62,9 @@
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/css \
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/img \
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/js \
+/Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/css/android_2_3.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/css/index.css \
+/Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/css/iphone5.css \
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/img/logo.png \
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/assets/www/src/js/main.js \
 /Users/Virola/projects/toys/cordova/cordova-learning/baidu-caifu/platforms/android/ant-build/AndroidManifest.xml \
