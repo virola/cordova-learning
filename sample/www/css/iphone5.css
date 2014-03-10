@@ -1,6 +1,10 @@
 /* iPhone 5 or iPod Touch 5th generation ------- */
 @media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
     
+    body {
+        padding-top: 20px;
+    }
+
     .bg-img {
         left: 60px;
         top: 100px;

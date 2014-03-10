@@ -164,6 +164,7 @@ var shake = (function () {
             document.getElementById('item').style.display = 'block';
 
             stopWatch();
+            console.log('its shaking!!--------');
 
             // its shaking
             item.show();
@@ -204,4 +205,5 @@ var shake = (function () {
 
 document.addEventListener('deviceready', function () {
     shake.init();
+    console.log('shake init ready.....');
 }, false);

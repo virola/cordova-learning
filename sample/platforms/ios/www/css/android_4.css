@@ -1,0 +1,49 @@
+
+/* Android 4.2 720x1280 (portrait) ----------- */
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) and (orientation : portrait) {
+    .bg-img {
+        left: 180px;
+        background-size: 100% 100%;
+        width: 370px;
+        height: 428px;
+        top: 140px;
+    }
+
+    body {
+        font-size: 2em;
+    }
+
+    .item {
+        margin-top: 650px;
+    }
+
+    .wrap {
+    }
+
+    .item img {
+        width: 128px;
+        height: 128px;
+    }
+
+    .item .info {
+        margin-left: 20px;
+    }
+
+    .item .info h3 {
+        margin-top: 10px;
+    }
+
+    .item .info p {
+        margin-top: 20px;
+    }
+
+    .arrow-right {
+        top: 68px;
+    }
+
+    .icon-male {
+        height: 30px;
+        width: 30px;
+        background-size: 100% 100%;
+    }
+}
