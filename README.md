@@ -4,13 +4,21 @@ cordova-learning
 学习cordova开发的一些例子。
 
 Ps. 
-为了给整个项目`瘦身`，tag 0.0.1和最新master分支里把几个cordova项目里的platform目录都删掉了。
-clone到本地之后如果需要进行调试（以IOS平台为例），需要：
 
-1. cd <appdir>
-1. rm plugins/ios.json
-1. cordova platform add ios
-1. cordova emulate ios
+为了给整个项目`瘦身`，tag 0.0.1和最新master分支里把几个cordova项目里的`platform`目录都**删掉**了。
+clone到本地之后如果需要进行调试（以IOS平台为例），需要执行以下几个步骤：
+
+	# 1.
+	cd <appdir>
+
+	# 2.
+	rm plugins/ios.json
+
+	# 3.
+    cordova platform add ios
+
+	# 4.
+    cordova emulate ios
 
 ### usercenter
 用户登录表单。
@@ -32,12 +40,24 @@ clone到本地之后如果需要进行调试（以IOS平台为例），需要：
 
 覆盖了大部分cordova的API插件的示例
 
+- device
+- dialog
+- battery-status
+- network-infomation
+- camera
+- file
+- file-transfer
+- geolocation
+
+
 ### sample
 
 测试两个外来插件：
 
 1. 官网提供了部分代码，加上自己整的一个简单[Echo插件](https://github.com/virola/cordova-learning/tree/master/plugin-custom/echo)
 2. SocialShare插件，来自<https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin>
+
+顺便copy了微信的`摇一摇`功能，方案不算完美；在`shake.html`中能看到。
 
 ### plugin-custom
 用于存放自定义插件的目录。现在只有`Echo`一个插件，由于Object-C对我来说太难了没有心情再写其他插件了……
@@ -48,4 +68,4 @@ clone到本地之后如果需要进行调试（以IOS平台为例），需要：
 
 - presentation : 这次调研分享的ppt
 - app : 所有开发产出的应用程序集合
-- qr : 二维码做的下载链接
+- qr : 二维码做的下载链接(百度内网)
