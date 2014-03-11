@@ -1,6 +1,5 @@
 node_modules
 ant-build
-cordova
 
 *.svn
 *.seed
