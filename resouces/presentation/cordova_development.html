@@ -21,6 +21,18 @@
     .text-yellow {
         color: #ffc21b;
     }
+    .text-gray {
+        color: #CCC;
+    }
+
+    .app-list img {
+        width: 160px;
+        height: 160px;
+    }
+    .align-left {
+        text-align: left;
+    }
+
     </style>
 
     <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -55,17 +67,19 @@
             </section>
 
             <section>
-                <h2>基本开发流程</h2>
+                <section>
+                    <h2>基本开发流程</h2>
 
-                <ol>
-                    <li>cordova create [...]</li>
-                    <li>cordova emulate [platform]/cordova run [platform] [--device]</li>
-                    <li>cordova build [platform]</li>
-                </ol>
-
-            </section>
-
-            <section data-markdown>
+                    <ol>
+                        <li><code>cordova create [...]</code></li>
+                        <li><code>cordova platform add [platform]</code></li>
+                        <li><code>cordova plugin add [plugins]</code></li>
+                        <li><code>cordova emulate [platform]/cordova run [platform] [--device]</code></li>
+                        <li><code>cordova build [platform]</code></li>
+                    </ol>
+                </section>
+                
+                 <section data-markdown>
 ##iOS vs Android
 
 iOS使用iOS模拟器
@@ -76,7 +90,10 @@ Android使用真机调试
 
     cordova run android --device
 
+                </section>
+
             </section>
+
 
             <section>
                 <section>
@@ -84,11 +101,12 @@ Android使用真机调试
                 </section>
 
                 <section>
+                    <h2>文档</h2>
                     <ul>
                         <li>Guides</li>
                         <li>API Reference</li>
                     </ul>
-                    <p></p>
+                    <p><br></p>
                     <p>
                         Latest@3.4.0 / diffrent from 3.3.0
                     </p>
@@ -97,19 +115,29 @@ Android使用真机调试
                     </p>
                 </section>
 
-                <section data-markdown>
-## 事件监听
+                <section>
+                    <h2>API reference</h2>
+                </section>
 
-* `deviceready`
-* `pause`
-* `resume`
-* `backbutton`
-* `menubutton`
-* `searchbutton`
-* `startcallbutton`
-* `endcallbutton`
-* `volumedownbutton`
-* `volumeupbutton`
+                <section>
+                    <h2>事件监听</h2>
+                    <ul>
+                        <li class="fragment highlight-red"><code>deviceready</code></li>
+                        <li class="fragment highlight-red"><code>pause</code></li>
+                        <li class="fragment highlight-red"><code>resume</code></li>
+                        <li><code>backbutton</code></li>
+                        <li><code>menubutton</code></li>
+                        <li><code>searchbutton</code></li>
+                        <li><code>startcallbutton</code></li>
+                        <li><code>endcallbutton</code></li>
+                        <li><code>volumedownbutton</code></li>
+                        <li><code>volumeupbutton</code></li>
+                    </ul>
+                    <p><br></p>
+                    <p>使用方式：</p>
+                    <pre><code>
+    document.addEventListener("deviceready", yourCallbackFunction, false);
+                    </code></pre>
                 </section>
 
                 <section data-markdown>
@@ -165,9 +193,19 @@ cordova plugin remove org.apache.cordova.console
                 </section>
 
                 <section>
-                    <h3>实践tips</h3>
-                    <ul>
-                        <li><code>cordova plugin</code> instead of <a target="_blank" href="">plugman</a></li>
+                    <h2>plugman</h2>
+                    <pre><code>
+    $ npm install -g plugman
+
+    # 安装插件
+    $ plugman --platform &lt;ios|amazon-fireos|android|blackberry10|wp7|wp8&gt; --project &lt;directory&gt; --plugin &lt;name|url|path&gt; [--plugins_dir]
+
+    # 卸载
+    $ plugman --uninstall --platform &lt;...&gt;
+                    </code></pre>
+                    <p><br></p>
+                    <ul class="fragment">
+                        <li>推荐使用<code>cordova plugin</code> </li>
                     </ul>
                 </section>
             </section>
@@ -183,9 +221,9 @@ cordova plugin remove org.apache.cordova.console
                         <li>hooks/</li>
                         <li>merges/</li>
                         <li class="fragment highlight-blue">platforms/</li>
-                        <li class="fragment highlight-red">plugins/</li>
+                        <li class="fragment highlight-blue">plugins/</li>
                         <li class="fragment highlight-red">www/</li>
-                        <li class="fragment highlight-red">config.xml/</li>
+                        <li class="fragment highlight-red">config.xml</li>
                     </ul>
 
                     <aside class="notes">
@@ -194,11 +232,23 @@ cordova plugin remove org.apache.cordova.console
                         `www`目录用于存放html网页，是我们的主要开发目录；
                     </aside>
                 </section>
+
+                <section>
+                    <h2>基本开发流程</h2>
+
+                    <ol>
+                        <li><code>cordova create [...]</code></li>
+                        <li><code>cordova platform add [platform]</code></li>
+                        <li><code>cordova plugin add [plugins]</code></li>
+                        <li><code>cordova emulate [platform]/cordova run [platform] [--device]</code></li>
+                        <li><code>cordova build [platform]</code></li>
+                    </ol>
+                </section>
             </section>
             
             <section>
                 <h2>插件介绍</h2>
-                <p>API references</p>
+                <p>Plugin APIs</p>
             </section>
 
             <section>
@@ -233,7 +283,7 @@ cordova plugin remove org.apache.cordova.console
 
                     <div class="fragment">
                         IOS中<code>config.xml</code>：
-                        <pre><code><preference name="AutoHideSplashScreen" value="false" /></code></pre>
+                        <pre><code>&lt;preference name=&quot;AutoHideSplashScreen&quot; value=&quot;false&quot; /&gt;</code></pre>
                     </div>
 
                     <aside class="notes">
@@ -278,23 +328,23 @@ cordova plugin remove org.apache.cordova.console
                         <li>应用场景： 多媒体在线播放/文件下载</li>
                     </ul>
 
-                    <pre><code data-trim>
+                    <pre><code>
     function getNetworkInfo() {
-    var networkState = navigator.connection.type;
+        var networkState = navigator.connection.type;
 
-    var states = {};
-    states[Connection.UNKNOWN]  = 'Unknown connection';
-    states[Connection.ETHERNET] = 'Ethernet connection';
-    states[Connection.WIFI]     = 'WiFi connection';
-    states[Connection.CELL_2G]  = 'Cell 2G connection';
-    states[Connection.CELL_3G]  = 'Cell 3G connection';
-    states[Connection.CELL_4G]  = 'Cell 4G connection';
+        var states = {};
+        states[Connection.UNKNOWN]  = 'Unknown connection';
+        states[Connection.ETHERNET] = 'Ethernet connection';
+        states[Connection.WIFI]     = 'WiFi connection';
+        states[Connection.CELL_2G]  = 'Cell 2G connection';
+        states[Connection.CELL_3G]  = 'Cell 3G connection';
+        states[Connection.CELL_4G]  = 'Cell 4G connection';
 
-    // iOS下无法判断移动网络的类型，移动数据传输时统一表示为Connection.CELL
-    states[Connection.CELL]     = 'Cell generic connection';
-    states[Connection.NONE]     = 'No network connection';
+        // iOS下无法判断移动网络的类型，移动数据传输时统一表示为Connection.CELL
+        states[Connection.CELL]     = 'Cell generic connection';
+        states[Connection.NONE]     = 'No network connection';
 
-    return states[networkState];
+        return states[networkState];
     }
                     </code></pre>
                 </section>
@@ -354,6 +404,14 @@ cordova plugin remove org.apache.cordova.console
                         <li>device.uuid</li>
                         <li>device.version</li> 
                     </ul>
+                    <ul class="fragment text-gray">
+                        <li>3.4.0</li>
+                        <li>EVO</li>
+                        <li><del>undefined</del></li>
+                        <li>Android</li>
+                        <li>一长串string</li>
+                        <li>4.1.2</li> 
+                    </ul>
                 </section>
 
             </section>
@@ -395,15 +453,16 @@ cordova plugin remove org.apache.cordova.console
                 <section>
                     <h2>camera</h2>
                     <p>注意内存问题</p>
-
-                    <blockquote>
-                        To avoid common memory problems, set Camera.destinationType to FILE_URI rather than DATA_URL.
-                    </blockquote>
+                    <ul>
+                        <li>Photos selected from the device's gallery are not downscaled to a lower quality, even if a <code>quality</code> parameter is specified. 
+                        To avoid common memory problems, set Camera.destinationType to FILE_URI rather than DATA_URL.</li>
+                    </ul>
                 </section>
 
                 <section>
                     <h2>camera</h2>
                     <p>仅iOS支持的方法<code>navigator.camera.cleanup</code></p>
+                    <p>清除临时空间中相机拍摄的照片</p>
                     <pre><code>
     navigator.camera.cleanup(onSuccess, onFail);
 
@@ -503,9 +562,9 @@ cordova prepare
 
                     <p>2) 以IOS为例，在config.xml中加入:</p>
                     <pre><code>
-<feature name="SocialSharing">
-  <param name="ios-package" value="SocialSharing" />
-</feature>              
+    &lt;feature name=&quot;SocialSharing&quot;&gt;
+        &lt;param name=&quot;ios-package&quot; value=&quot;SocialSharing&quot; /&gt;
+    &lt;/feature&gt;              
                     </code></pre>
                 </section>
 
@@ -533,7 +592,7 @@ cordova prepare
                         <li>
                             <span>Android 2.x版本中Geolocation插件无法定位</span>
                             <ul class="fragment text-yellow">
-                                <li>自定义插件使用其他地图sdk完成定位，如<a target="_blank" href="http://www.baidu.com/#wd=phonegap%20%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE&ie=utf-8&tn=baiduhome_pg&f=3&bs=zen%20coding&rsv_bp=1&rsv_spt=1&rsv_sug3=24&rsv_sug4=210&rsv_sug2=0&inputT=3&rsv_sug1=13&oq=phonegap%20baidu&rsp=0&rsv_sug=10">百度地图</a></li>
+                                <li>android 4.x支持此插件。如需兼容，只能自制插件使用其他地图sdk完成定位，如<a target="_blank" href="http://www.baidu.com/#wd=phonegap%20%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE&ie=utf-8&tn=baiduhome_pg&f=3&bs=zen%20coding&rsv_bp=1&rsv_spt=1&rsv_sug3=24&rsv_sug4=210&rsv_sug2=0&inputT=3&rsv_sug1=13&oq=phonegap%20baidu&rsp=0&rsv_sug=10">百度地图</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -547,6 +606,7 @@ cordova prepare
                             <ul class="fragment text-yellow">
                                 <li>css media query / seperate css - 各种调试</li>
                                 <li>整理的<a target="_blank" href="https://github.com/virola/cordova-learning/blob/master/resouces/css/device-media-query.css">device media query参考</a></li>
+                                <li>UI框架</li>
                             </ul>
                         </li>
                         <li>
@@ -577,8 +637,6 @@ cordova prepare
                                 </li>
                             </ul>
                         </li>
-
-                        
                     </ul>
                 </section>
 
@@ -589,13 +647,26 @@ cordova prepare
             <section>
                 <section>
                     <h2>开发案例试用</h2>
-                    <ul>
-                        <li><a href="">UserCenter</a></li>
-                        <li><a href="">BaiduCaifu</a></li>
-                        <li><a href="">官方插件功能试用集</a></li>
-                        <li><a href="">摇一摇</a></li>
+                    <ul class="app-list">
+                        <li>
+                            <a href="http://virola-eko.com/toys/app/BaiduCaifu-debug-unaligned.apk">BaiduCaifu</a><img src="../qr/baiducaifu_android.png" >
+                        </li>
+                        <li>
+                            <a href="http://virola-eko.com/toys/app/Plugins-debug-unaligned.apk">官方插件demo</a><img src="../qr/plugins_android.png" >
+                        </li>
                     </ul>
-                    <p class="fragment">所有代码都放在github
+                    <ul class="app-list">
+                        <li>
+                            <a href="http://virola-eko.com/toys/app/Sample-debug-unaligned.apk">摇一摇=</a><img src="../qr/sample_android.png" >
+                        </li>
+                        <li>
+                            <a href="http://virola-eko.com/toys/app/UserCenter-debug-unaligned.apk">UserCenter</a><img src="../qr/usercenter_android.png" >
+                        </li>
+                        
+                    </ul>
+                    <p class="fragment">
+                        <br>
+                        所有代码都放在github
                         <a target="_blank" href="https://github.com/virola/cordova-learning/">Cordova Learning</a>
                     </p>
                 </section>
@@ -648,7 +719,9 @@ cordova prepare
                 { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
                 { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                 { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() {
+
+                    hljs.initHighlightingOnLoad(); } },
                 { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                 { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
             ]

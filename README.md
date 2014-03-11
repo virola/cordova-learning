@@ -37,3 +37,6 @@ cordova-learning
 开发过程中使用到的一些资源文件。
 像启动画面的图片啊、php server的文件啊、reveal.js做的ppt网页啊，之类的。
 
+- presentation : 这次调研分享的ppt
+- app : 所有开发产出的应用程序集合
+- qr : 二维码做的下载链接
