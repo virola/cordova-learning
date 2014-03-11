@@ -3,6 +3,15 @@ cordova-learning
 
 学习cordova开发的一些例子。
 
+Ps. 
+为了给整个项目`瘦身`，tag 0.0.1和最新master分支里把几个cordova项目里的platform目录都删掉了。
+clone到本地之后如果需要进行调试（以IOS平台为例），需要：
+
+1. cd <appdir>
+1. rm plugins/ios.json
+1. cordova platform add ios
+1. cordova emulate ios
+
 ### usercenter
 用户登录表单。
 
