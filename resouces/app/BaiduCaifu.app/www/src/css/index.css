@@ -1,11 +1,10 @@
-@import url(iphone5.css);
-@import url(android_2_3.css);
 
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color: #E4E4E4;
+    font-size: 1.2em;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -81,22 +80,28 @@ h1 {
     overflow: hidden;
 }
 
-.list li a > div {
+.list li a div {
     float: left;
     box-sizing: border-box;
 }
-.list li a > div.info {
-    width: 70%;
+.list li a div.info {
     overflow: hidden;
     border-right: 1px solid #abc;
     padding-right: 10px;
+}
+
+.list li a div.rate {
+    padding-left: 10px;
+    text-align: center;
+    overflow: hidden;
+    color: #000;
 }
 .list li a h4 {
     line-height: 1.2;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.list li a > div.info p {
+.list li a div.info p {
     color: #666;
     overflow: hidden;
 }
@@ -105,13 +110,6 @@ h1 {
     color: #FF560B;
 }
 
-.list li a > div.rate {
-    width: 30%;
-    padding-left: 10px;
-    text-align: center;
-    overflow: hidden;
-    color: #000;
-}
 
 .list li a .rate i {
     display: block;
@@ -124,4 +122,95 @@ h1 {
     font-size: 2em;
     line-height: 2;
     color: #ff2900;
+}
+
+
+/* iPhone 5 or iPod Touch 5th generation ------- */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .load-more {
+        font-size: 1.5em;
+        line-height: 2.5;
+    }
+
+    .list li a div.info {
+        width: 70%;
+    }
+
+    .list li a div.rate {
+        width: 30%;
+    }
+
+    .list li a h4 {
+        font-size: 14px;
+    }
+
+    .list li a .rate i {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 719px) and (orientation : landscape) {
+    body {
+        font-size: 1.4em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .load-more {
+        font-size: 3em;
+        line-height: 3.5;
+    }
+
+    .list li a div.info {
+        width: 60%;
+    }
+
+    .list li a div.rate {
+        width: 28%;
+    }
+
+    .list li a h4 {
+        font-size: 1.4em;
+    }
+
+    .list li a .rate i {
+        font-size: .9em;
+    }
+}
+
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) and (orientation : portrait) {
+    body {
+        font-size: 2em;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    .load-more {
+        font-size: 3em;
+        line-height: 3.5;
+    }
+
+    .list li a h4 {
+        font-size: 1.2em;
+    }
+
+    .list li a .rate i {
+        font-size: .9em;
+        overflow: hidden;
+    }
 }

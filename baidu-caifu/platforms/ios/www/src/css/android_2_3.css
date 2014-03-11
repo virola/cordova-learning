@@ -1,5 +1,5 @@
 
-@media only screen and (min-device-width : 480px) and (max-device-width : 800px) and (orientation : portrait) {
+@media only screen and (min-device-width : 360px) and (max-device-width : 500px) and (orientation : landscape) {
     body {
         font-size: 1.4em;
         line-height: 1.4;
@@ -10,8 +10,16 @@
     }
 
     .load-more {
-        font-size: 1.5em;
-        line-height: 2;
+        font-size: 3em;
+        line-height: 3.5;
+    }
+
+    .list li a div.info {
+        width: 60%;
+    }
+
+    .list li a div.rate {
+        width: 28%;
     }
 
     .list li a h4 {
@@ -23,7 +31,7 @@
     }
 }
 
-@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) and (orientation : portrait) {
+@media only screen and (min-device-width : 500px) and (max-device-width : 720px) and (orientation : landscape) {
     body {
         font-size: 2em;
         line-height: 1.4;
@@ -34,8 +42,8 @@
     }
 
     .load-more {
-        font-size: 2em;
-        line-height: 2;
+        font-size: 3em;
+        line-height: 3.5;
     }
 
     .list li a h4 {

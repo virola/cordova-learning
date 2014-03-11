@@ -1,4 +1,6 @@
 node_modules
+platforms/android
+platforms/ios
 *.svn
 *.seed
 *.log

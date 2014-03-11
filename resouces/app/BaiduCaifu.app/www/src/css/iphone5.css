@@ -10,7 +10,15 @@
 
     .load-more {
         font-size: 1.5em;
-        line-height: 1.5;
+        line-height: 2.5;
+    }
+
+    .list li a div.info {
+        width: 70%;
+    }
+
+    .list li a div.rate {
+        width: 30%;
     }
 
     .list li a h4 {

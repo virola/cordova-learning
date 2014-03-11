@@ -1,5 +1,263 @@
+body, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+}
 
-@import url(shake-common.css);
-@import url(iphone5.css);
-/*@import url(android_4.css);*/
-@import url(android2_3_3.css);
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #2e3132;
+}
+
+h2 {
+    background: #22282A;
+    color: #FFF;
+    font-size: 1.3em;
+    line-height: 2.5em;
+    padding: 0 2em;
+    text-align: center;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    display: inline-block;
+    border-radius: 3px;
+    background: url(../img/back.png) center center;
+    background-size: 80% 80%;
+}
+
+.dark-bg {
+    background-color: #2e3132;
+}
+
+.searching {
+    text-align: center;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+.wrap::after {
+    visibility: hidden;
+    content: ' ';
+    clear: both;
+}
+
+ 
+.bg-img {
+    position: absolute;
+    top: 100px;
+    width: 210px;
+    height: 238px;
+    background: url(../img/shake-hand.png) no-repeat center top;
+    background-size: 80% 80%;
+}
+
+
+.item {
+    position: relative;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    background: #393b3c;
+    border: 1px solid #181819;
+    color: #b0b1b1;
+}
+
+.wrap {
+    border: 1px solid #4d4f50;
+    padding: 13px;
+}
+
+.item .box {
+    float: left;
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 80px;
+    max-height: 80px;
+    display: block;
+    border: 0;
+    border-radius: 5px;
+}
+
+.item .info {
+    padding-left: 15px;
+}
+
+.item .info h3 {
+    margin: 0;
+    font-weight: normal;
+    /*font-size: 14px;*/
+}
+
+.item .info p {
+    margin-top: 8px;
+}
+
+.icon-male {
+    display: inline-block;
+    margin-left: 5px;
+    background: url(../img/icon-male.png) no-repeat bottom;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 0;
+    background: url(../img/arrow-right.png) no-repeat;
+}
+
+/* iPhone 5 or iPod Touch 5th generation ------- */
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    
+    body {
+        padding-top: 20px;
+    }
+
+    .bg-img {
+        left: 60px;
+        top: 100px;
+        background-size: 80% 80%;
+    }
+
+
+    .item {
+        margin-top: 320px;
+    }
+
+    .wrap {
+        border: 1px solid #4d4f50;
+        padding: 13px;
+    }
+
+
+    .item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .item .info {
+        padding-left: 15px;
+    }
+
+    .item .info p {
+        margin-top: 8px;
+    }
+
+    .icon-male {
+        height: 15px;
+        width: 15px;
+        background-size: 80% 80%;
+    }
+
+    .arrow-right {
+        top: 30px;
+        width: 30px;
+        height: 30px;
+        background-size: 50% 80%;
+    }
+  
+}
+
+
+/* Android 4.2 720x1280 (portrait) ----------- */
+@media only screen and (min-device-width : 720px) and (max-device-width : 1280px) and (orientation : portrait) {
+    .bg-img {
+        left: 180px;
+        background-size: 100% 100%;
+        width: 370px;
+        height: 428px;
+        top: 140px;
+    }
+
+    body {
+        font-size: 2em;
+    }
+
+    .item {
+        margin-top: 650px;
+    }
+
+    .wrap {
+    }
+
+    .item img {
+        width: 128px;
+        height: 128px;
+    }
+
+    .item .info {
+        margin-left: 20px;
+    }
+
+    .item .info h3 {
+        margin-top: 10px;
+    }
+
+    .item .info p {
+        margin-top: 20px;
+    }
+
+    .arrow-right {
+        top: 68px;
+    }
+
+    .icon-male {
+        height: 30px;
+        width: 30px;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* Desire + Galaxy S2 (portrait) ----------- */
+@media only screen and (min-device-width : 400px) and (max-device-width : 720px) and (orientation : portrait) {
+    .bg-img {
+        left: 130px;
+        background-size: 90% 90%;
+    }
+
+    body {
+        font-size: 1.6em;
+    }
+
+    .item {
+        margin-top: 400px;
+    }
+
+    .wrap {
+    }
+
+    .item img {
+        width: 88px;
+        height: 88px;
+    }
+
+    .item .info h3 {
+        margin-top: 5px;
+    }
+
+    .item .info p {
+        margin-top: 16px;
+    }
+
+    .arrow-right {
+        top: 48px;
+    }
+
+    .icon-male {
+        height: 20px;
+        width: 20px;
+        background-size: 100% 100%;
+    }
+}
